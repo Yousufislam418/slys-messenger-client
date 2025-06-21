@@ -66,7 +66,7 @@ function userOnClick(id){
  const selfUser = users.find(user => user._id === lsId);
  const friendUser = users.find(user => user._id === id);
  setUser({selfUser: selfUser.number, friendUser: friendUser.number});
- displayChatData();
+//  displayChatData();
 
 //--- header Chat board user number and image show display
  document.getElementById('chat-board-head').innerHTML = `
@@ -76,15 +76,11 @@ function userOnClick(id){
   <img class="w-30 h-30 round border-1 -aqua-3 mx-8" src="${friendUser.img}">
   <h3 id="chat-title" class="white">${friendUser.number}</h3>
  </div>`;
-}
 
-let count = 0;
-
-// Create effect function
-const effect = useEffect(() => {
-  console.log("Count changed to:", count);
+ setInterval(()=> {
   displayChatData();
-}, [count]);
+ }, 3000);
+}
 
 
 
@@ -100,9 +96,6 @@ function displayChatData(){
     (conversation.sentUser === friendUser && conversation.receiveUser === selfUser));
 
    chatbox.innerHTML = ''; 
-
-   count = filterConversation.length;
-   effect([count]);
 
    filterConversation.forEach((chats)=> {  
   let status = '';
