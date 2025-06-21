@@ -40,12 +40,13 @@ getUsersDatabase();
 
 
 
-
+const mainSection = document.getElementById('main-section');
 // signInForm start
-function signInForm(){
-  document.getElementById('main-section').innerHTML = `
+function signInForm(){ 
+mainSection.innerHTML = '';
+mainSection.innerHTML = `
 <!-- Sign in form -->
- <section id="signin-form-section" class="absolute w-100-pr top-0 left-0 none">
+ <section id="signin-form-section" class="absolute w-100-pr top-0 left-0 non">
   <div class="container mt-20">
     <div class="content form w-85-pr">
         <!-- form data load js -->
@@ -58,11 +59,14 @@ function signInForm(){
   <div class="inp mt-15">
     <input class="input" type="password" id="password" placeholder="Password">
   </div>
-  <div class="btn my-30 text-center mt-30">
+  <div class="btn mt-30 text-center mt-30">
     <button class="btn-md danger" id="login-form-btn" onclick="signInFormSubmit()">Login</button>
   </div>
-  <div class="message text-center h-15">
-   <p id="display" class="fs-15 aqua"></p>
+  <div class="message text-center mt-15 h-15">
+   <p id="display" class="fs-18 bold-500 purple">Display</p>
+  </div>
+  <div class="message text-end mt-10 h-15">
+   <p class="fs-16 base-8">You have no account?<span onclick="userRegistrationForm()" class="aqua fs-20 pointer mx-5">Register</span></p>
   </div>
         <!-- form data load js -->
     </div>
@@ -95,6 +99,88 @@ function signInFormSubmit() {
  }
 
 }//signInFormSubmit fn end
+
+
+   signInForm();
+
+// user Registration Form 
+function userRegistrationForm(){
+ mainSection.innerHTML = '';
+ mainSection.innerHTML = `
+ <div class="container">
+  <div class="content">
+ <form id="user-reg-form-data" class="form w-70-pr">
+  <div class="title text-center">
+  <h1 class="fs-30 aqua-8">User Registration Form</h1>
+  </div>
+  <div class="inp mt-15">
+  <input class="input" type="text" name="name" maxlength="25" placeholder="Name">
+  </div>
+  <div class="inp mt-8">
+  <input class="input" type="number" name="number" placeholder="Number">
+  </div>
+  <div class="inp mt-8">
+  <input class="input" type="email" name="email" placeholder="Email">
+  </div>
+  <div class="inp mt-8">
+  <input class="input" type="password" name="password" placeholder="Password">
+  </div>
+  <div class="inp mt-8">
+  <input class="input" type="text" name="location" placeholder="Location">
+  </div>
+  <div class="inp mt-8">
+  <input class="input" type="text" name="image" placeholder="image">
+  </div>
+  <div class="button mt-20 text-center">
+  <input type="submit" class="btn-md danger" value="Submit">
+  </div>
+  <div class="mt-8 text-center">
+  <p id="msg" class="fs-18 bold-500 lime">Message</p>
+  </div>
+  <div class="link text-right mt-8">
+  <p id="msg" class="fs-18 bold-500 aqua-1">You have an already account?<span onclick="signInForm()" class="aqua mx-5 fs-20 pointer">Signin</span></p>
+  </div>
+ </form>
+  </div>
+ </div>`;
+
+}// userRegitrationForm end
+// userRegistrationForm();
+
+
+const msg = document.getElementById('msg');
+const userRegForm = document.getElementById('user-reg-form-data');
+ if(userRegForm){
+userRegForm.onsubmit =(e)=> {
+  e.preventDefault();
+ const formData = new FormData(userRegForm);
+ const {name,number,email,password,location,image} = Object.fromEntries(formData.entries());
+
+ if(!name || !number || !email || !password || !location || !image){
+   msg.innerHTML = 'All fieled are required';
+ }
+
+ const datas = {
+  name: name.trim(),
+  number: number.trim(),
+  email: email.trim(),
+  password: password.trim(),
+  location: location.trim(),
+  image: image.trim(),
+  date: Date.now()
+ }
+// data set database
+fetch(userUrl,{
+  method: "POST",
+  headers: {'content-type':'application/json'},
+  body: JSON.stringify(datas)
+}).then(res => res.json()).then((result)=> {
+  msg.innerHTML = 'Regitration Successfully...';
+  
+});
+
+  }
+ }
 
 
   </script>

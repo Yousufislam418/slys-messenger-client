@@ -47,7 +47,7 @@ userLists.forEach((user,index)=> {
  displayUser.innerHTML += `
  <div class="p-10 bg-base-8">
   <h1 id="userIds" class="base btn-md flex align-items-center" onclick="userOnClick('${user._id}')">
-   <img class="base mr-10 w-40 h-40 border-1 -aqua-3 object-fit-cover round" src="${user.img}">${user.number}</h1>
+   <img class="base mr-10 w-40 h-40 border-1 -aqua-3 object-fit-cover round" src="${user?.img}">${user.number}</h1>
  </div>`;
 });
 }// userDataDisplay fn end
@@ -66,20 +66,19 @@ function userOnClick(id){
  const selfUser = users.find(user => user._id === lsId);
  const friendUser = users.find(user => user._id === id);
  setUser({selfUser: selfUser.number, friendUser: friendUser.number});
-//  displayChatData();
 
 //--- header Chat board user number and image show display
  document.getElementById('chat-board-head').innerHTML = `
  <div class="flex align-items-center h-40">
   <img onclick="classListAdd('chat-board-id','sm-none'), classListRemove('user-box','sm-none')" 
     class="w-24 md-none mx-5 pointer" src="../assets/icons/arrow-back.png">
-  <img class="w-30 h-30 round border-1 -aqua-3 mx-8" src="${friendUser.img}">
+  <img class="w-30 h-30 round border-1 -aqua-3 mx-8" src="${friendUser?.img}">
   <h3 id="chat-title" class="white">${friendUser.number}</h3>
  </div>`;
 
  setInterval(()=> {
   displayChatData();
- }, 3000);
+ }, 5000);
 }
 
 
