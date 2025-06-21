@@ -3,21 +3,14 @@ const yousufImg = 'https://i.ibb.co/wFwyycJn/myimage.jpg';
 const chatbox = document.getElementById('chat-box');
 const displayUser = document.getElementById('display-user');
 
+if(!lsId){
+   location.assign('greetings.html');
+}
 
 // Custom hook
 const [userData, setUserData] = useState([]); 
 const [chatData, setChatData] = useState([]); 
 const [user, setUser] = useState([]);
-
-// Show hide element by id
-// function showElementById(element,value){
-//   const elementId = document.getElementById(element);
-//   elementId.classList.remove(value);
-// }
-// function hideElementById(element,value){
-//   const elementId = document.getElementById(element);
-//   elementId.classList.add(value);
-// }
 
 // get user data 
 function userDataManage(){
@@ -34,7 +27,7 @@ function userDataManage(){
 userDataManage();
 
 
-// Title Display User data
+// Header Title Display User data
 function userDataDisplay(){
 const users = userData(0); 
 
@@ -47,8 +40,10 @@ const users = userData(0);
   </div>
  </div>`;
 
-// User chat List display
-users.forEach((user,index)=> {
+// User chat List display 
+const userLists = users.filter((userList)=> userList._id !== lsId);
+// users.forEach((user,index)=> {
+userLists.forEach((user,index)=> {
  displayUser.innerHTML += `
  <div class="p-10 bg-base-8">
   <h1 id="userIds" class="base btn-md flex align-items-center" onclick="userOnClick('${user._id}')">
@@ -83,6 +78,14 @@ function userOnClick(id){
  </div>`;
 }
 
+let count = 0;
+
+// Create effect function
+const effect = useEffect(() => {
+  console.log("Count changed to:", count);
+  displayChatData();
+}, [count]);
+
 
 
 // Display chat data
@@ -96,7 +99,10 @@ function displayChatData(){
     (conversation.sentUser === selfUser && conversation.receiveUser === friendUser) ||
     (conversation.sentUser === friendUser && conversation.receiveUser === selfUser));
 
-   chatbox.innerHTML = '';
+   chatbox.innerHTML = ''; 
+
+   count = filterConversation.length;
+   effect([count]);
 
    filterConversation.forEach((chats)=> {  
   let status = '';

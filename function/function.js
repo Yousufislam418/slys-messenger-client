@@ -19,3 +19,27 @@ function classListRemove(elements,o='-', oo='-', ooo='-'){
 }
 
 
+
+// Use Effect
+function useEffect(callback, dependencies) {
+  let oldDeps = [];
+
+  return function runEffect(newDeps) {
+    const hasChanged = newDeps.some((dep, i) => dep !== oldDeps[i]);
+    if (hasChanged) {
+      callback();
+      oldDeps = [...newDeps];
+
+      
+    }
+  };
+}
+
+// 🧪 ব্যবহার:
+// let count = 0;
+
+// // Create effect function
+// const effect = useEffect(() => {
+//   console.log("Count changed to:", count);
+// }, [count]);
+
