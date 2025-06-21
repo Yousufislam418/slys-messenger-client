@@ -1,0 +1,50 @@
+/* Percent */
+.max-h-0-pr {max-height: 0%;} .max-h-1-pr {max-height: 1%;} .max-h-2-pr {max-height: 2%;} 
+.max-h-3-pr {max-height: 3%;} .max-h-4-pr {max-height: 4%;} .max-h-5-pr {max-height: 5%;} 
+.max-h-6-pr {max-height: 6%;} .max-h-7-pr {max-height: 7%;} .max-h-8-pr {max-height: 8%;} 
+.max-h-9-pr {max-height: 9%;} .max-h-10-pr {max-height: 10%;} .max-h-11-pr {max-height: 11%;} 
+.max-h-12-pr {max-height: 12%;} .max-h-15-pr {max-height: 15%;} .max-h-20-pr {max-height: 20%;} 
+.max-h-25-pr {max-height: 25%;} .max-h-30-pr {max-height: 30%;} .max-h-35-pr {max-height: 35%;} 
+.max-h-40-pr {max-height: 40%;} .max-h-45-pr {max-height: 45%;} .max-h-50-pr {max-height: 50%;} 
+.max-h-55-pr {max-height: 55%;} .max-h-60-pr {max-height: 60%;} .max-h-65-pr {max-height: 65%;} 
+.max-h-70-pr {max-height: 70%;} .max-h-75-pr {max-height: 75%;} .max-h-80-pr {max-height: 80%;} 
+.max-h-85-pr {max-height: 85%;} .max-h-90-pr {max-height: 90%;} .max-h-95-pr {max-height: 95%;} 
+.max-h-98-pr {max-height: 98%;} .max-h-99-pr {max-height: 99%;} .max-h-100-pr {max-height: 100%;} 
+
+/* PX to Rem */
+.max-h-0 {max-height: 0.00rem;} .max-h-1 {max-height: 0.0625rem;} .max-h-2 {max-height: 0.125rem;} 
+.max-h-3 {max-height: 0.1875rem;} .max-h-4 {max-height: 0.25rem;} .max-h-5 {max-height: 0.3125rem;} 
+.max-h-6 {max-height: 0.375rem;} .max-h-7 {max-height: 0.4375rem;} .max-h-8 {max-height: 0.5rem;} 
+.max-h-9 {max-height: 0.5625rem;} .max-h-10 {max-height: 0.625rem;} .max-h-11 {max-height: 0.6875rem;} 
+.max-h-12 {max-height: 0.75rem;} .max-h-15 {max-height: 0.9375rem;} .max-h-18 {max-height: 1.125rem;} 
+.max-h-20 {max-height: 1.25rem;} .max-h-25 {max-height: 1.562rem;} .max-h-30 {max-height: 1.875rem;}
+.max-h-35 {max-height: 2.1875rem;} .max-h-40 {max-height: 2.5rem;} .max-h-45 {max-height: 2.8125rem;} 
+.max-h-50 {max-height: 3.125rem;} .max-h-55 {max-height: 3.4375rem;} .max-h-60 {max-height: 3.75rem;} 
+.max-h-65 {max-height: 4.0625rem;} .max-h-70 {max-height: 4.375rem;} .max-h-75 {max-height: 4.6875rem;} 
+.max-h-80 {max-height: 5rem;} .max-h-85 {max-height: 5.3125rem;} .max-h-90 {max-height: 5.625rem;} 
+.max-h-95 {max-height: 5.9375rem;} .max-h-100 {max-height: 6.25rem;} .max-h-110 {max-height: 6.875rem;} 
+.max-h-120 {max-height: 7.5rem;} .max-h-130 {max-height: 8.125rem;} .max-h-140 {max-height: 8.75rem;} 
+.max-h-150 {max-height: 9.375rem;} .max-h-160 {max-height: 10rem;} .max-h-170 {max-height: 10.625rem;} 
+.max-h-180 {max-height: 11.25rem;} .max-h-190 {max-height: 11.875rem;} .max-h-200 {max-height: 12.5rem;} 
+.max-h-210 {max-height: 13.125rem;} .max-h-220 {max-height: 13.75rem;} .max-h-230 {max-height: 14.375rem;} 
+.max-h-240 {max-height: 15rem;} .max-h-250 {max-height: 15.625rem;} .max-h-260 {max-height: 16.25rem;} 
+.max-h-270 {max-height: 16.875rem;} .max-h-280 {max-height: 17.5rem;} .max-h-290 {max-height: 18.125rem;} 
+.max-h-300 {max-height: 18.75rem;} .max-h-310 {max-height: 19.375rem;} .max-h-320 {max-height: 20rem;} 
+.max-h-330 {max-height: 20.625rem;} .max-h-340 {max-height: 21.25rem;} .max-h-350 {max-height: 21.875rem;} 
+.max-h-360 {max-height: 22.5rem;} .max-h-370 {max-height: 23.125rem;} .max-h-380 {max-height: 23.75rem;} 
+.max-h-390 {max-height: 24.375rem;} .max-h-400 {max-height: 25rem;} .max-h-410 {max-height: 25.625rem;} 
+.max-h-420 {max-height: 26.25rem;} .max-h-430 {max-height: 26.875rem;} .max-h-440 {max-height: 27.5rem;} 
+.max-h-450 {max-height: 28.125rem;} .max-h-460 {max-height: 28.75rem;} .max-h-470 {max-height: 29.375rem;} 
+.max-h-480 {max-height: 30rem;} .max-h-490 {max-height: 30.625rem;} .max-h-500 {max-height: 31.25rem;} 
+.max-h-520 {max-height: 32.5rem;} .max-h-530 {max-height: 33.125rem;} .max-h-550 {max-height: 34.375rem;} 
+.max-h-580 {max-height: 36.25rem;} .max-h-600 {max-height: 37.5rem;} .max-h-630 {max-height: 39.375rem;} 
+.max-h-650 {max-height: 40.625rem;} .max-h-680 {max-height: 42.5rem;} .max-h-700 {max-height: 43.75rem;} 
+.max-h-750 {max-height: 46.875rem;} .max-h-800 {max-height: 50rem;} .max-h-max {max-height: max-content;} 
+.max-h-max {max-height: max-content;} .max-h-fit {max-height: fit-content;} .max-h-vh {max-height: 100vh;}
+.max-h-auto {max-height: auto;}
+
+/* Divide */
+.max-h-1-12	{max-height: 8.333333%;} .max-h-2-12	{max-height: 16.666667%;} .max-h-3-12 {max-height: 25%;}
+.max-h-4-12	{max-height: 33.333333%;} .max-h-5-12 {max-height: 41.666667%;} .max-h-6-12 {max-height: 50%;} 
+.max-h-7-12	{max-height: 58.333333%;} .max-h-8-12 {max-height: 66.666667%;} .max-h-9-12 {max-height: 75%;} 
+.max-h-10-12 {max-height: 83.333333%;} .max-h-11-12 {max-height: 91.666667%;} .max-h-full {max-height: 100%;}

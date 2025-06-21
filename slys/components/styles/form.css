@@ -1,0 +1,29 @@
+.form {
+    width: 530px;
+    padding: 30px;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #008DCD;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #222, 0 0 10px #333;
+} 
+.form .title-field {
+    color: cornsilk;
+    text-align: center;
+    font-size: 28px;
+}
+.field {
+    margin-bottom: 15px;
+}
+.form label { 
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: cyan;
+    margin: 3px;
+}
+.form .btn-feild {
+    text-align: center;
+    margin-top: 30px;
+} 

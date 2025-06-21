@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../slys/components/components.css">
+    <link rel="stylesheet" href="../slys/slys/slys.css">
+    <title>Slys Messenger</title>
+</head>
+<body class="bg-blue-1">
+<!---- Chat box ----->
+ <section>
+  <div class="container mt-3">
+   <div class="content w-98-pr flex space-between mx-auto">
+ <div id="user-box" class="min-w-230 sm-100-pr w-20-pr border-1 -pink-1">
+  <div id="display-user" class="show-user p-3 pointer">
+    <!-- user data display -->
+  </div>
+ </div>
+<!-- main content -->
+ <div id="chat-board-id" class="mx-auto w-95-pr p-10 bg-base shadow-3 radius-5 sm-none">
+  <div id="chat-board-head" class="bg-base-3 radius-3 h-40"><!---header-box-photo-username-start---->
+  <!--- data load js main file  -->
+  </div><!---header-box-photo-username-end---->
+  <div class="radius-15 py-20 border-1 -pink mt-8"><!---chat-box-start--->
+   <div id="chat-box" class="h-480 overflow-y-auto px-10"><!---chat-data-start--->
+<!-- Chat Data Load here -->
+   </div><!---chat-data-end--->
+  </div><!---chat-box-end--->
+  <div class="flex mt-3"><!----inp-btn-box-start--->
+   <textarea id="textareaId" class="input max-h-100 resize-none" type="text" placeholder="Write"></textarea>
+   <button onclick="liveChatManagement()" class="btn-sm">Send</button>
+  </div><!----inp-btn-box-end--->
+ </div>
+   </div>
+  </div>
+ </section>
+
+<!-------Registration form content------>
+ <section class="absolute top-0 left-0 w-100-pr h-100-pr bg-white none">
+    <div class="container w-80-pr mx-auto bg-blue-5 mt-20 p-20 shadow-3 radius-10">
+        <div class="registration-form">
+         <h1 class="text-center white fs-30 mb-15">Registration form</h1>
+         <input class="input" type="text" id="name" placeholder="Name">
+         <input class="input mt-8" type="number" id="number" placeholder="Number">
+         <input class="input mt-8" type="password" id="password" placeholder="Password">
+         <div class="text-center mt-20">
+          <input id="reg-form-btn" class="btn-md danger" type="button" value="Submit">
+         </div>
+        </div>
+    </div>
+ </section>
+ 
+ <!-- <button onclick="userRegistration()" class="btn-md m-100">User Registration</button>
+ <button onclick="deleteUser()" class="btn-md m-100">Delete User</button> -->
+
+<script>
+
+ function userRegistration(){ 
+
+ const soniaImg = 'https://i.ibb.co/npQgZHy/sonia.webp';
+ const lamiaakterImg = 'https://i.ibb.co/nsjQ4hhH/lamiaakter.webp';
+
+  fetch('https://slys-messenger-server.vercel.app/users',{
+    method:"POST",
+    headers: {
+      'content-type':'application/json'
+    },
+    body: JSON.stringify({
+      name: 'Lamia Akter',
+      email: 'Lamiaakter@gmail.com',
+      number : '01730854313',
+      password: 'Lamia13',
+      img: lamiaakterImg,
+      date: Date.now()
+ })
+  }).then(res => res.json()).then(data => {
+    console.log(data);
+    
+  });
+}
+
+function deleteUser(){ 
+  return alert('Check id number');
+ const id = '6851e99d14ff73322bf20fd6';
+  fetch(`https://slys-messenger-server.vercel.app/users/${id}`,{
+    method: "DELETE",
+    headers: {'content-type':'application/json'}
+  }).then(res => res.json()).then(data => {
+    console.log('Delete:', data);
+    
+  })
+}
+
+</script>
+
+
+
+
+ <script src="../hooks/hooks.js"></script>
+ <script src="../function/function.js"></script>
+ <script src="../components/chats.js"></script>
+
+</body>
+</html>

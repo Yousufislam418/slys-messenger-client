@@ -1,0 +1,202 @@
+/* padding All Size */
+.p-0 {padding: 0.00rem;}     .p-1 {padding: 0.0625rem;}   .p-2 {padding: 0.125rem;} 
+.p-3 {padding: 0.1875rem;}   .p-4 {padding: 0.25rem;}     .p-5 {padding: 0.3125rem;} 
+.p-6 {padding: 0.375rem;}    .p-7 {padding: 0.4375rem;}   .p-8 {padding: 0.5rem;} 
+.p-9 {padding: 0.5625rem;}   .p-10 {padding: 0.625rem;}   .p-11 {padding: 0.6875rem;} 
+.p-12 {padding: 0.75rem;}    .p-15 {padding: 0.9375rem;}  .p-18 {padding: 1.125rem;} 
+.p-20 {padding: 1.25rem;}    .p-25 {padding: 1.562rem;}   .p-30 {padding: 1.875rem;}
+.p-35 {padding: 2.1875rem;}  .p-40 {padding: 2.5rem;}     .p-45 {padding: 2.8125rem;} 
+.p-50 {padding: 3.125rem;}   .p-55 {padding: 3.4375rem;}  .p-60 {padding: 3.75rem;} 
+.p-65 {padding: 4.0625rem;}  .p-70 {padding: 4.375rem;}   .p-75 {padding: 4.6875rem;} 
+.p-80 {padding: 5rem;}       .p-85 {padding: 5.3125rem;}  .p-90 {padding: 5.625rem;} 
+.p-95 {padding: 5.9375rem;}  .p-100 {padding: 6.25rem;}   .p-110 {padding: 6.875rem;} 
+.p-120 {padding: 7.5rem;}    .p-130 {padding: 8.125rem;}  .p-140 {padding: 8.75rem;} 
+.p-150 {padding: 9.375rem;}  .p-160 {padding: 10rem;}     .p-170 {padding: 10.625rem;} 
+.p-180 {padding: 11.25rem;}  .p-190 {padding: 11.875rem;} .p-200 {padding: 12.5rem;} 
+.p-210 {padding: 13.125rem;} .p-220 {padding: 13.75rem;}  .p-230 {padding: 14.375rem;} 
+.p-240 {padding: 15rem;}     .p-250 {padding: 15.625rem;} .p-260 {padding: 16.25rem;} 
+.p-270 {padding: 16.875rem;} .p-280 {padding: 17.5rem;}   .p-290 {padding: 18.125rem;} 
+.p-300 {padding: 18.75rem;} 
+
+/* padding top */
+.pt-0 {padding-top: 0.00rem;}     .pt-1 {padding-top: 0.0625rem;}   .pt-2 {padding-top: 0.125rem;} 
+.pt-3 {padding-top: 0.1875rem;}   .pt-4 {padding-top: 0.25rem;}     .pt-5 {padding-top: 0.3125rem;} 
+.pt-6 {padding-top: 0.375rem;}    .pt-7 {padding-top: 0.4375rem;}   .pt-8 {padding-top: 0.5rem;} 
+.pt-9 {padding-top: 0.5625rem;}   .pt-10 {padding-top: 0.625rem;}   .pt-11 {padding-top: 0.6875rem;} 
+.pt-12 {padding-top: 0.75rem;}    .pt-15 {padding-top: 0.9375rem;}  .pt-18 {padding-top: 1.125rem;} 
+.pt-20 {padding-top: 1.25rem;}    .pt-25 {padding-top: 1.562rem;}   .pt-30 {padding-top: 1.875rem;}
+.pt-35 {padding-top: 2.1875rem;}  .pt-40 {padding-top: 2.5rem;}     .pt-45 {padding-top: 2.8125rem;} 
+.pt-50 {padding-top: 3.125rem;}   .pt-55 {padding-top: 3.4375rem;}  .pt-60 {padding-top: 3.75rem;} 
+.pt-65 {padding-top: 4.0625rem;}  .pt-70 {padding-top: 4.375rem;}   .pt-75 {padding-top: 4.6875rem;} 
+.pt-80 {padding-top: 5rem;}       .pt-85 {padding-top: 5.3125rem;}  .pt-90 {padding-top: 5.625rem;} 
+.pt-95 {padding-top: 5.9375rem;}  .pt-100 {padding-top: 6.25rem;}   .pt-110 {padding-top: 6.875rem;} 
+.pt-120 {padding-top: 7.5rem;}    .pt-130 {padding-top: 8.125rem;}  .pt-140 {padding-top: 8.75rem;} 
+.pt-150 {padding-top: 9.375rem;}  .pt-160 {padding-top: 10rem;}     .pt-170 {padding-top: 10.625rem;} 
+.pt-180 {padding-top: 11.25rem;}  .pt-190 {padding-top: 11.875rem;} .pt-200 {padding-top: 12.5rem;} 
+.pt-210 {padding-top: 13.125rem;} .pt-220 {padding-top: 13.75rem;}  .pt-230 {padding-top: 14.375rem;} 
+.pt-240 {padding-top: 15rem;}     .pt-250 {padding-top: 15.625rem;} .pt-260 {padding-top: 16.25rem;} 
+.pt-270 {padding-top: 16.875rem;} .pt-280 {padding-top: 17.5rem;}   .pt-290 {padding-top: 18.125rem;} 
+.pt-300 {padding-top: 18.75rem;}
+
+/* padding right */
+.pr-0 {padding-right: 0.00rem;}     .pr-1 {padding-right: 0.0625rem;}   .pr-2 {padding-right: 0.125rem;} 
+.pr-3 {padding-right: 0.1875rem;}   .pr-4 {padding-right: 0.25rem;}     .pr-5 {padding-right: 0.3125rem;} 
+.pr-6 {padding-right: 0.375rem;}    .pr-7 {padding-right: 0.4375rem;}   .pr-8 {padding-right: 0.5rem;} 
+.pr-9 {padding-right: 0.5625rem;}   .pr-10 {padding-right: 0.625rem;}   .pr-11 {padding-right: 0.6875rem;} 
+.pr-12 {padding-right: 0.75rem;}    .pr-15 {padding-right: 0.9375rem;}  .pr-18 {padding-right: 1.125rem;} 
+.pr-20 {padding-right: 1.25rem;}    .pr-25 {padding-right: 1.562rem;}   .pr-30 {padding-right: 1.875rem;}
+.pr-35 {padding-right: 2.1875rem;}  .pr-40 {padding-right: 2.5rem;}     .pr-45 {padding-right: 2.8125rem;} 
+.pr-50 {padding-right: 3.125rem;}   .pr-55 {padding-right: 3.4375rem;}  .pr-60 {padding-right: 3.75rem;} 
+.pr-65 {padding-right: 4.0625rem;}  .pr-70 {padding-right: 4.375rem;}   .pr-75 {padding-right: 4.6875rem;} 
+.pr-80 {padding-right: 5rem;}       .pr-85 {padding-right: 5.3125rem;}  .pr-90 {padding-right: 5.625rem;} 
+.pr-95 {padding-right: 5.9375rem;}  .pr-100 {padding-right: 6.25rem;}   .pr-110 {padding-right: 6.875rem;} 
+.pr-120 {padding-right: 7.5rem;}    .pr-130 {padding-right: 8.125rem;}  .pr-140 {padding-right: 8.75rem;} 
+.pr-150 {padding-right: 9.375rem;}  .pr-160 {padding-right: 10rem;}     .pr-170 {padding-right: 10.625rem;} 
+.pr-180 {padding-right: 11.25rem;}  .pr-190 {padding-right: 11.875rem;} .pr-200 {padding-right: 12.5rem;} 
+.pr-210 {padding-right: 13.125rem;} .pr-220 {padding-right: 13.75rem;}  .pr-230 {padding-right: 14.375rem;} 
+.pr-240 {padding-right: 15rem;}     .pr-250 {padding-right: 15.625rem;} .pr-260 {padding-right: 16.25rem;} 
+.pr-270 {padding-right: 16.875rem;} .pr-280 {padding-right: 17.5rem;}   .pr-290 {padding-right: 18.125rem;} 
+.pr-300 {padding-right: 18.75rem;}
+
+/* padding bottom */
+.pb-0 {padding-bottom: 0.00rem;}     .pb-1 {padding-bottom: 0.0625rem;}   .pb-2 {padding-bottom: 0.125rem;} 
+.pb-3 {padding-bottom: 0.1875rem;}   .pb-4 {padding-bottom: 0.25rem;}     .pb-5 {padding-bottom: 0.3125rem;} 
+.pb-6 {padding-bottom: 0.375rem;}    .pb-7 {padding-bottom: 0.4375rem;}   .pb-8 {padding-bottom: 0.5rem;} 
+.pb-9 {padding-bottom: 0.5625rem;}   .pb-10 {padding-bottom: 0.625rem;}   .pb-11 {padding-bottom: 0.6875rem;} 
+.pb-12 {padding-bottom: 0.75rem;}    .pb-15 {padding-bottom: 0.9375rem;}  .pb-18 {padding-bottom: 1.125rem;} 
+.pb-20 {padding-bottom: 1.25rem;}    .pb-25 {padding-bottom: 1.562rem;}   .pb-30 {padding-bottom: 1.875rem;}
+.pb-35 {padding-bottom: 2.1875rem;}  .pb-40 {padding-bottom: 2.5rem;}     .pb-45 {padding-bottom: 2.8125rem;} 
+.pb-50 {padding-bottom: 3.125rem;}   .pb-55 {padding-bottom: 3.4375rem;}  .pb-60 {padding-bottom: 3.75rem;} 
+.pb-65 {padding-bottom: 4.0625rem;}  .pb-70 {padding-bottom: 4.375rem;}   .pb-75 {padding-bottom: 4.6875rem;} 
+.pb-80 {padding-bottom: 5rem;}       .pb-85 {padding-bottom: 5.3125rem;}  .pb-90 {padding-bottom: 5.625rem;} 
+.pb-95 {padding-bottom: 5.9375rem;}  .pb-100 {padding-bottom: 6.25rem;}   .pb-110 {padding-bottom: 6.875rem;} 
+.pb-120 {padding-bottom: 7.5rem;}    .pb-130 {padding-bottom: 8.125rem;}  .pb-140 {padding-bottom: 8.75rem;} 
+.pb-150 {padding-bottom: 9.375rem;}  .pb-160 {padding-bottom: 10rem;}     .pb-170 {padding-bottom: 10.625rem;} 
+.pb-180 {padding-bottom: 11.25rem;}  .pb-190 {padding-bottom: 11.875rem;} .pb-200 {padding-bottom: 12.5rem;} 
+.pb-210 {padding-bottom: 13.125rem;} .pb-220 {padding-bottom: 13.75rem;}  .pb-230 {padding-bottom: 14.375rem;} 
+.pb-240 {padding-bottom: 15rem;}     .pb-250 {padding-bottom: 15.625rem;} .pb-260 {padding-bottom: 16.25rem;} 
+.pb-270 {padding-bottom: 16.875rem;} .pb-280 {padding-bottom: 17.5rem;}   .pb-290 {padding-bottom: 18.125rem;} 
+.pb-300 {padding-bottom: 18.75rem;} 
+
+/* padding left */
+.pl-0 {padding-left: 0.00rem;}     .pl-1 {padding-left: 0.0625rem;}   .pl-2 {padding-left: 0.125rem;} 
+.pl-3 {padding-left: 0.1875rem;}   .pl-4 {padding-left: 0.25rem;}     .pl-5 {padding-left: 0.3125rem;} 
+.pl-6 {padding-left: 0.375rem;}    .pl-7 {padding-left: 0.4375rem;}   .pl-8 {padding-left: 0.5rem;} 
+.pl-9 {padding-left: 0.5625rem;}   .pl-10 {padding-left: 0.625rem;}   .pl-11 {padding-left: 0.6875rem;} 
+.pl-12 {padding-left: 0.75rem;}    .pl-15 {padding-left: 0.9375rem;}  .pl-18 {padding-left: 1.125rem;} 
+.pl-20 {padding-left: 1.25rem;}    .pl-25 {padding-left: 1.562rem;}   .pl-30 {padding-left: 1.875rem;}
+.pl-35 {padding-left: 2.1875rem;}  .pl-40 {padding-left: 2.5rem;}     .pl-45 {padding-left: 2.8125rem;} 
+.pl-50 {padding-left: 3.125rem;}   .pl-55 {padding-left: 3.4375rem;}  .pl-60 {padding-left: 3.75rem;} 
+.pl-65 {padding-left: 4.0625rem;}  .pl-70 {padding-left: 4.375rem;}   .pl-75 {padding-left: 4.6875rem;} 
+.pl-80 {padding-left: 5rem;}       .pl-85 {padding-left: 5.3125rem;}  .pl-90 {padding-left: 5.625rem;} 
+.pl-95 {padding-left: 5.9375rem;}  .pl-100 {padding-left: 6.25rem;}   .pl-110 {padding-left: 6.875rem;} 
+.pl-120 {padding-left: 7.5rem;}    .pl-130 {padding-left: 8.125rem;}  .pl-140 {padding-left: 8.75rem;} 
+.pl-150 {padding-left: 9.375rem;}  .pl-160 {padding-left: 10rem;}     .pl-170 {padding-left: 10.625rem;} 
+.pl-180 {padding-left: 11.25rem;}  .pl-190 {padding-left: 11.875rem;} .pl-200 {padding-left: 12.5rem;} 
+.pl-210 {padding-left: 13.125rem;} .pl-220 {padding-left: 13.75rem;}  .pl-230 {padding-left: 14.375rem;} 
+.pl-240 {padding-left: 15rem;}     .pl-250 {padding-left: 15.625rem;} .pl-260 {padding-left: 16.25rem;} 
+.pl-270 {padding-left: 16.875rem;} .pl-280 {padding-left: 17.5rem;}   .pl-290 {padding-left: 18.125rem;} 
+.pl-300 {padding-left: 18.75rem;} 
+
+/* ------------------------------------------------------------------------------------- */
+/* -------------------------------------Padding-Minus---------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+/* padding All Size */
+.-p-0 {padding: 0.00rem;}     .-p-1 {padding: 0.0625rem;}   .-p-2 {padding: 0.125rem;} 
+.-p-3 {padding: 0.1875rem;}   .-p-4 {padding: 0.25rem;}     .-p-5 {padding: 0.3125rem;} 
+.-p-6 {padding: 0.375rem;}    .-p-7 {padding: 0.4375rem;}   .-p-8 {padding: 0.5rem;} 
+.-p-9 {padding: 0.5625rem;}   .-p-10 {padding: 0.625rem;}   .-p-11 {padding: 0.6875rem;} 
+.-p-12 {padding: 0.75rem;}    .-p-15 {padding: 0.9375rem;}  .-p-18 {padding: 1.125rem;} 
+.-p-20 {padding: 1.25rem;}    .-p-25 {padding: 1.562rem;}   .-p-30 {padding: 1.875rem;}
+.-p-35 {padding: 2.1875rem;}  .-p-40 {padding: 2.5rem;}     .-p-45 {padding: 2.8125rem;} 
+.-p-50 {padding: 3.125rem;}   .-p-55 {padding: 3.4375rem;}  .-p-60 {padding: 3.75rem;} 
+.-p-65 {padding: 4.0625rem;}  .-p-70 {padding: 4.375rem;}   .-p-75 {padding: 4.6875rem;} 
+.-p-80 {padding: 5rem;}       .-p-85 {padding: 5.3125rem;}  .-p-90 {padding: 5.625rem;} 
+.-p-95 {padding: 5.9375rem;}  .-p-100 {padding: 6.25rem;}   .-p-110 {padding: 6.875rem;} 
+.-p-120 {padding: 7.5rem;}    .-p-130 {padding: 8.125rem;}  .-p-140 {padding: 8.75rem;} 
+.-p-150 {padding: 9.375rem;}  .-p-160 {padding: 10rem;}     .-p-170 {padding: 10.625rem;} 
+.-p-180 {padding: 11.25rem;}  .-p-190 {padding: 11.875rem;} .-p-200 {padding: 12.5rem;} 
+.-p-210 {padding: 13.125rem;} .-p-220 {padding: 13.75rem;}  .-p-230 {padding: 14.375rem;} 
+.-p-240 {padding: 15rem;}     .-p-250 {padding: 15.625rem;} .-p-260 {padding: 16.25rem;} 
+.-p-270 {padding: 16.875rem;} .-p-280 {padding: 17.5rem;}   .-p-290 {padding: 18.125rem;} 
+.-p-300 {padding: 18.75rem;} 
+
+/* padding top */
+.-pt-0 {padding-top: 0.00rem;}     .-pt-1 {padding-top: 0.0625rem;}   .-pt-2 {padding-top: 0.125rem;} 
+.-pt-3 {padding-top: 0.1875rem;}   .-pt-4 {padding-top: 0.25rem;}     .-pt-5 {padding-top: 0.3125rem;} 
+.-pt-6 {padding-top: 0.375rem;}    .-pt-7 {padding-top: 0.4375rem;}   .-pt-8 {padding-top: 0.5rem;} 
+.-pt-9 {padding-top: 0.5625rem;}   .-pt-10 {padding-top: 0.625rem;}   .-pt-11 {padding-top: 0.6875rem;} 
+.-pt-12 {padding-top: 0.75rem;}    .-pt-15 {padding-top: 0.9375rem;}  .-pt-18 {padding-top: 1.125rem;} 
+.-pt-20 {padding-top: 1.25rem;}    .-pt-25 {padding-top: 1.562rem;}   .-pt-30 {padding-top: 1.875rem;}
+.-pt-35 {padding-top: 2.1875rem;}  .-pt-40 {padding-top: 2.5rem;}     .-pt-45 {padding-top: 2.8125rem;} 
+.-pt-50 {padding-top: 3.125rem;}   .-pt-55 {padding-top: 3.4375rem;}  .-pt-60 {padding-top: 3.75rem;} 
+.-pt-65 {padding-top: 4.0625rem;}  .-pt-70 {padding-top: 4.375rem;}   .-pt-75 {padding-top: 4.6875rem;} 
+.-pt-80 {padding-top: 5rem;}       .-pt-85 {padding-top: 5.3125rem;}  .-pt-90 {padding-top: 5.625rem;} 
+.-pt-95 {padding-top: 5.9375rem;}  .-pt-100 {padding-top: 6.25rem;}   .-pt-110 {padding-top: 6.875rem;} 
+.-pt-120 {padding-top: 7.5rem;}    .-pt-130 {padding-top: 8.125rem;}  .-pt-140 {padding-top: 8.75rem;} 
+.-pt-150 {padding-top: 9.375rem;}  .-pt-160 {padding-top: 10rem;}     .-pt-170 {padding-top: 10.625rem;} 
+.-pt-180 {padding-top: 11.25rem;}  .-pt-190 {padding-top: 11.875rem;} .-pt-200 {padding-top: 12.5rem;} 
+.-pt-210 {padding-top: 13.125rem;} .-pt-220 {padding-top: 13.75rem;}  .-pt-230 {padding-top: 14.375rem;} 
+.-pt-240 {padding-top: 15rem;}     .-pt-250 {padding-top: 15.625rem;} .-pt-260 {padding-top: 16.25rem;} 
+.-pt-270 {padding-top: 16.875rem;} .-pt-280 {padding-top: 17.5rem;}   .-pt-290 {padding-top: 18.125rem;} 
+.-pt-300 {padding-top: 18.75rem;}
+
+/* padding right */
+.-pr-0 {padding-right: 0.00rem;}     .-pr-1 {padding-right: 0.0625rem;}   .-pr-2 {padding-right: 0.125rem;} 
+.-pr-3 {padding-right: 0.1875rem;}   .-pr-4 {padding-right: 0.25rem;}     .-pr-5 {padding-right: 0.3125rem;} 
+.-pr-6 {padding-right: 0.375rem;}    .-pr-7 {padding-right: 0.4375rem;}   .-pr-8 {padding-right: 0.5rem;} 
+.-pr-9 {padding-right: 0.5625rem;}   .-pr-10 {padding-right: 0.625rem;}   .-pr-11 {padding-right: 0.6875rem;} 
+.-pr-12 {padding-right: 0.75rem;}    .-pr-15 {padding-right: 0.9375rem;}  .-pr-18 {padding-right: 1.125rem;} 
+.-pr-20 {padding-right: 1.25rem;}    .-pr-25 {padding-right: 1.562rem;}   .-pr-30 {padding-right: 1.875rem;}
+.-pr-35 {padding-right: 2.1875rem;}  .-pr-40 {padding-right: 2.5rem;}     .-pr-45 {padding-right: 2.8125rem;} 
+.-pr-50 {padding-right: 3.125rem;}   .-pr-55 {padding-right: 3.4375rem;}  .-pr-60 {padding-right: 3.75rem;} 
+.-pr-65 {padding-right: 4.0625rem;}  .-pr-70 {padding-right: 4.375rem;}   .-pr-75 {padding-right: 4.6875rem;} 
+.-pr-80 {padding-right: 5rem;}       .-pr-85 {padding-right: 5.3125rem;}  .-pr-90 {padding-right: 5.625rem;} 
+.-pr-95 {padding-right: 5.9375rem;}  .-pr-100 {padding-right: 6.25rem;}   .-pr-110 {padding-right: 6.875rem;} 
+.-pr-120 {padding-right: 7.5rem;}    .-pr-130 {padding-right: 8.125rem;}  .-pr-140 {padding-right: 8.75rem;} 
+.-pr-150 {padding-right: 9.375rem;}  .-pr-160 {padding-right: 10rem;}     .-pr-170 {padding-right: 10.625rem;} 
+.-pr-180 {padding-right: 11.25rem;}  .-pr-190 {padding-right: 11.875rem;} .-pr-200 {padding-right: 12.5rem;} 
+.-pr-210 {padding-right: 13.125rem;} .-pr-220 {padding-right: 13.75rem;}  .-pr-230 {padding-right: 14.375rem;} 
+.-pr-240 {padding-right: 15rem;}     .-pr-250 {padding-right: 15.625rem;} .-pr-260 {padding-right: 16.25rem;} 
+.-pr-270 {padding-right: 16.875rem;} .-pr-280 {padding-right: 17.5rem;}   .-pr-290 {padding-right: 18.125rem;} 
+.-pr-300 {padding-right: 18.75rem;}
+
+/* padding bottom */
+.-pb-0 {padding-bottom: 0.00rem;}     .-pb-1 {padding-bottom: 0.0625rem;}   .-pb-2 {padding-bottom: 0.125rem;} 
+.-pb-3 {padding-bottom: 0.1875rem;}   .-pb-4 {padding-bottom: 0.25rem;}     .-pb-5 {padding-bottom: 0.3125rem;} 
+.-pb-6 {padding-bottom: 0.375rem;}    .-pb-7 {padding-bottom: 0.4375rem;}   .-pb-8 {padding-bottom: 0.5rem;} 
+.-pb-9 {padding-bottom: 0.5625rem;}   .-pb-10 {padding-bottom: 0.625rem;}   .-pb-11 {padding-bottom: 0.6875rem;} 
+.-pb-12 {padding-bottom: 0.75rem;}    .-pb-15 {padding-bottom: 0.9375rem;}  .-pb-18 {padding-bottom: 1.125rem;} 
+.-pb-20 {padding-bottom: 1.25rem;}    .-pb-25 {padding-bottom: 1.562rem;}   .-pb-30 {padding-bottom: 1.875rem;}
+.-pb-35 {padding-bottom: 2.1875rem;}  .-pb-40 {padding-bottom: 2.5rem;}     .-pb-45 {padding-bottom: 2.8125rem;} 
+.-pb-50 {padding-bottom: 3.125rem;}   .-pb-55 {padding-bottom: 3.4375rem;}  .-pb-60 {padding-bottom: 3.75rem;} 
+.-pb-65 {padding-bottom: 4.0625rem;}  .-pb-70 {padding-bottom: 4.375rem;}   .-pb-75 {padding-bottom: 4.6875rem;} 
+.-pb-80 {padding-bottom: 5rem;}       .-pb-85 {padding-bottom: 5.3125rem;}  .-pb-90 {padding-bottom: 5.625rem;} 
+.-pb-95 {padding-bottom: 5.9375rem;}  .-pb-100 {padding-bottom: 6.25rem;}   .-pb-110 {padding-bottom: 6.875rem;} 
+.-pb-120 {padding-bottom: 7.5rem;}    .-pb-130 {padding-bottom: 8.125rem;}  .-pb-140 {padding-bottom: 8.75rem;} 
+.-pb-150 {padding-bottom: 9.375rem;}  .-pb-160 {padding-bottom: 10rem;}     .-pb-170 {padding-bottom: 10.625rem;} 
+.-pb-180 {padding-bottom: 11.25rem;}  .-pb-190 {padding-bottom: 11.875rem;} .-pb-200 {padding-bottom: 12.5rem;} 
+.-pb-210 {padding-bottom: 13.125rem;} .-pb-220 {padding-bottom: 13.75rem;}  .-pb-230 {padding-bottom: 14.375rem;} 
+.-pb-240 {padding-bottom: 15rem;}     .-pb-250 {padding-bottom: 15.625rem;} .-pb-260 {padding-bottom: 16.25rem;} 
+.-pb-270 {padding-bottom: 16.875rem;} .-pb-280 {padding-bottom: 17.5rem;}   .-pb-290 {padding-bottom: 18.125rem;} 
+.-pb-300 {padding-bottom: 18.75rem;} 
+
+/* padding left */
+.-pl-0 {padding-left: 0.00rem;}     .-pl-1 {padding-left: 0.0625rem;}   .-pl-2 {padding-left: 0.125rem;} 
+.-pl-3 {padding-left: 0.1875rem;}   .-pl-4 {padding-left: 0.25rem;}     .-pl-5 {padding-left: 0.3125rem;} 
+.-pl-6 {padding-left: 0.375rem;}    .-pl-7 {padding-left: 0.4375rem;}   .-pl-8 {padding-left: 0.5rem;} 
+.-pl-9 {padding-left: 0.5625rem;}   .-pl-10 {padding-left: 0.625rem;}   .-pl-11 {padding-left: 0.6875rem;} 
+.-pl-12 {padding-left: 0.75rem;}    .-pl-15 {padding-left: 0.9375rem;}  .-pl-18 {padding-left: 1.125rem;} 
+.-pl-20 {padding-left: 1.25rem;}    .-pl-25 {padding-left: 1.562rem;}   .-pl-30 {padding-left: 1.875rem;}
+.-pl-35 {padding-left: 2.1875rem;}  .-pl-40 {padding-left: 2.5rem;}     .-pl-45 {padding-left: 2.8125rem;} 
+.-pl-50 {padding-left: 3.125rem;}   .-pl-55 {padding-left: 3.4375rem;}  .-pl-60 {padding-left: 3.75rem;} 
+.-pl-65 {padding-left: 4.0625rem;}  .-pl-70 {padding-left: 4.375rem;}   .-pl-75 {padding-left: 4.6875rem;} 
+.-pl-80 {padding-left: 5rem;}       .-pl-85 {padding-left: 5.3125rem;}  .-pl-90 {padding-left: 5.625rem;} 
+.-pl-95 {padding-left: 5.9375rem;}  .-pl-100 {padding-left: 6.25rem;}   .-pl-110 {padding-left: 6.875rem;} 
+.-pl-120 {padding-left: 7.5rem;}    .-pl-130 {padding-left: 8.125rem;}  .-pl-140 {padding-left: 8.75rem;} 
+.-pl-150 {padding-left: 9.375rem;}  .-pl-160 {padding-left: 10rem;}     .-pl-170 {padding-left: 10.625rem;} 
+.-pl-180 {padding-left: 11.25rem;}  .-pl-190 {padding-left: 11.875rem;} .-pl-200 {padding-left: 12.5rem;} 
+.-pl-210 {padding-left: 13.125rem;} .-pl-220 {padding-left: 13.75rem;}  .-pl-230 {padding-left: 14.375rem;} 
+.-pl-240 {padding-left: 15rem;}     .-pl-250 {padding-left: 15.625rem;} .-pl-260 {padding-left: 16.25rem;} 
+.-pl-270 {padding-left: 16.875rem;} .-pl-280 {padding-left: 17.5rem;}   .-pl-290 {padding-left: 18.125rem;} 
+.-pl-300 {padding-left: 18.75rem;} 

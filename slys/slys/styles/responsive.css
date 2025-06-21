@@ -1,0 +1,333 @@
+/* Small screens (mobile devices) */
+@media (max-width: 576px) {
+.sm-none {display: none;}
+.sm-flex {display: flex;}
+.sm-block {display: block;}
+.sm-grid {display: grid;} 
+/* Font Size */
+.sm-fs-0 {font-size: 0.00rem;}
+.sm-fs-1 {font-size: 0.0625rem;}
+.sm-fs-2 {font-size: 0.125rem;}
+.sm-fs-3 {font-size: 0.1875rem;}
+.sm-fs-4 {font-size: 0.25rem;}
+.sm-fs-5 {font-size: 0.3125rem;}
+.sm-fs-6 {font-size: 0.375rem;}
+.sm-fs-7 {font-size: 0.4375rem;}
+.sm-fs-8 {font-size: 0.5rem;}
+.sm-fs-9 {font-size: 0.5625rem;}
+.sm-fs-10 {font-size: 0.625rem;}
+.sm-fs-11 {font-size: 0.6875rem;}
+.sm-fs-12 {font-size: 0.75rem;}
+.sm-fs-13 {font-size: 0.8125rem;}
+.sm-fs-14 {font-size: 0.875rem;}
+.sm-fs-15 {font-size: 0.9375rem;}
+.sm-fs-16 {font-size: 1rem;}
+.sm-fs-17 {font-size: 1.0625rem;}
+.sm-fs-18 {font-size: 1.125rem;}
+.sm-fs-19 {font-size: 1.1875rem;}
+.sm-fs-20 {font-size: 1.25rem;}
+.sm-fs-21 {font-size: 1.3125rem;}
+.sm-fs-22 {font-size: 1.375rem;}
+.sm-fs-23 {font-size: 1.4375rem;}
+.sm-fs-24 {font-size: 1.5rem;}
+.sm-fs-25 {font-size: 1.5625rem;}
+.sm-fs-26 {font-size: 1.625rem;}
+.sm-fs-27 {font-size: 1.6875rem;}
+.sm-fs-28 {font-size: 1.75rem;}
+.sm-fs-29 {font-size: 1.8125rem;}
+.sm-fs-30 {font-size: 1.875rem;}
+.sm-fs-31 {font-size: 1.9375rem;}
+.sm-fs-32 {font-size: 2rem;}
+.sm-fs-33 {font-size: 2.0625rem;}
+.sm-fs-34 {font-size: 2.125rem;}
+.sm-fs-35 {font-size: 2.1875rem;}
+.sm-fs-36 {font-size: 2.25rem;}
+.sm-fs-37 {font-size: 2.3125rem;}
+.sm-fs-38 {font-size: 2.375rem;}
+.sm-fs-39 {font-size: 2.4375rem;}
+.sm-fs-40 {font-size: 2.5rem;}
+.sm-fs-41 {font-size: 2.5625rem;}
+.sm-fs-42 {font-size: 2.625rem;}
+.sm-fs-43 {font-size: 2.6875rem;}
+.sm-fs-44 {font-size: 2.75rem;}
+.sm-fs-45 {font-size: 2.8125rem;}
+.sm-fs-46 {font-size: 2.875rem;}
+.sm-fs-47 {font-size: 2.9375rem;}
+.sm-fs-48 {font-size: 3rem;}
+.sm-fs-49 {font-size: 3.0625rem;}
+.sm-fs-50 {font-size: 3.125rem;}
+.sm-fs-51 {font-size: 3.1875rem;}
+.sm-fs-52 {font-size: 3.25rem;}
+.sm-fs-53 {font-size: 3.3125rem;}
+.sm-fs-54 {font-size: 3.375rem;}
+.sm-fs-55 {font-size: 3.4375rem;}
+.sm-fs-56 {font-size: 3.5rem;}
+.sm-fs-57 {font-size: 3.5625rem;}
+.sm-fs-58 {font-size: 3.625rem;}
+.sm-fs-59 {font-size: 3.6875rem;}
+.sm-fs-60 {font-size: 3.75rem;}
+.sm-fs-61 {font-size: 3.8125rem;}
+.sm-fs-62 {font-size: 3.875rem;}
+.sm-fs-63 {font-size: 3.9375rem;}
+.sm-fs-64 {font-size: 4rem;}
+.sm-fs-65 {font-size: 4.0625rem;}
+.sm-fs-66 {font-size: 4.125rem;}
+.sm-fs-67 {font-size: 4.1875rem;}
+.sm-fs-68 {font-size: 4.25rem;}
+.sm-fs-69 {font-size: 4.3125rem;}
+.sm-fs-70 {font-size: 4.375rem;}
+.sm-fs-71 {font-size: 4.4375rem;}
+.sm-fs-72 {font-size: 4.5rem;}
+.sm-fs-73 {font-size: 4.5625rem;}
+.sm-fs-74 {font-size: 4.625rem;}
+.sm-fs-75 {font-size: 4.6875rem;}
+.sm-fs-76 {font-size: 4.75rem;}
+.sm-fs-77 {font-size: 4.8125rem;}
+.sm-fs-78 {font-size: 4.875rem;}
+.sm-fs-79 {font-size: 4.9375rem;}
+.sm-fs-80 {font-size: 5rem;} 
+
+.sm-100-pr {width: 100%;}
+
+}
+
+/* Medium screens (tablets) ------------------------------------------*/
+@media (min-width: 577px) {
+.md-none {display: none;}
+.md-flex {display: flex;}
+.md-block {display: block;}
+.md-grid {display: grid;} 
+/* grid template columns */
+.md-grid-cols-1 {grid-template-columns: repeat(1, minmax(0, 1fr));}
+.md-grid-cols-2 {grid-template-columns: repeat(2, minmax(0, 1fr));}
+.md-grid-cols-3 {grid-template-columns: repeat(3, minmax(0, 1fr));}
+.md-grid-cols-4 {grid-template-columns: repeat(4, minmax(0, 1fr));}
+.md-grid-cols-5 {grid-template-columns: repeat(5, minmax(0, 1fr));}
+.md-grid-cols-6 {grid-template-columns: repeat(6, minmax(0, 1fr));}
+.md-grid-cols-7 {grid-template-columns: repeat(7, minmax(0, 1fr));}
+.md-grid-cols-8 {grid-template-columns: repeat(8, minmax(0, 1fr));}
+.md-grid-cols-9 {grid-template-columns: repeat(9, minmax(0, 1fr));}
+.md-grid-cols-10 {grid-template-columns: repeat(10, minmax(0, 1fr));}
+.md-grid-cols-11 {grid-template-columns: repeat(11, minmax(0, 1fr));}
+.md-grid-cols-12 {grid-template-columns: repeat(12, minmax(0, 1fr));} 
+/* Font Size */ 
+.md-fs-0 {font-size: 0.00rem;}
+.md-fs-1 {font-size: 0.0625rem;}
+.md-fs-2 {font-size: 0.125rem;}
+.md-fs-3 {font-size: 0.1875rem;}
+.md-fs-4 {font-size: 0.25rem;}
+.md-fs-5 {font-size: 0.3125rem;}
+.md-fs-6 {font-size: 0.375rem;}
+.md-fs-7 {font-size: 0.4375rem;}
+.md-fs-8 {font-size: 0.5rem;}
+.md-fs-9 {font-size: 0.5625rem;}
+.md-fs-10 {font-size: 0.625rem;}
+.md-fs-11 {font-size: 0.6875rem;}
+.md-fs-12 {font-size: 0.75rem;}
+.md-fs-13 {font-size: 0.8125rem;}
+.md-fs-14 {font-size: 0.875rem;}
+.md-fs-15 {font-size: 0.9375rem;}
+.md-fs-16 {font-size: 1rem;}
+.md-fs-17 {font-size: 1.0625rem;}
+.md-fs-18 {font-size: 1.125rem;}
+.md-fs-19 {font-size: 1.1875rem;}
+.md-fs-20 {font-size: 1.25rem;}
+.md-fs-21 {font-size: 1.3125rem;}
+.md-fs-22 {font-size: 1.375rem;}
+.md-fs-23 {font-size: 1.4375rem;}
+.md-fs-24 {font-size: 1.5rem;}
+.md-fs-25 {font-size: 1.5625rem;}
+.md-fs-26 {font-size: 1.625rem;}
+.md-fs-27 {font-size: 1.6875rem;}
+.md-fs-28 {font-size: 1.75rem;}
+.md-fs-29 {font-size: 1.8125rem;}
+.md-fs-30 {font-size: 1.875rem;}
+.md-fs-31 {font-size: 1.9375rem;}
+.md-fs-32 {font-size: 2rem;}
+.md-fs-33 {font-size: 2.0625rem;}
+.md-fs-34 {font-size: 2.125rem;}
+.md-fs-35 {font-size: 2.1875rem;}
+.md-fs-36 {font-size: 2.25rem;}
+.md-fs-37 {font-size: 2.3125rem;}
+.md-fs-38 {font-size: 2.375rem;}
+.md-fs-39 {font-size: 2.4375rem;}
+.md-fs-40 {font-size: 2.5rem;}
+.md-fs-41 {font-size: 2.5625rem;}
+.md-fs-42 {font-size: 2.625rem;}
+.md-fs-43 {font-size: 2.6875rem;}
+.md-fs-44 {font-size: 2.75rem;}
+.md-fs-45 {font-size: 2.8125rem;}
+.md-fs-46 {font-size: 2.875rem;}
+.md-fs-47 {font-size: 2.9375rem;}
+.md-fs-48 {font-size: 3rem;}
+.md-fs-49 {font-size: 3.0625rem;}
+.md-fs-50 {font-size: 3.125rem;}
+.md-fs-51 {font-size: 3.1875rem;}
+.md-fs-52 {font-size: 3.25rem;}
+.md-fs-53 {font-size: 3.3125rem;}
+.md-fs-54 {font-size: 3.375rem;}
+.md-fs-55 {font-size: 3.4375rem;}
+.md-fs-56 {font-size: 3.5rem;}
+.md-fs-57 {font-size: 3.5625rem;}
+.md-fs-58 {font-size: 3.625rem;}
+.md-fs-59 {font-size: 3.6875rem;}
+.md-fs-60 {font-size: 3.75rem;}
+.md-fs-61 {font-size: 3.8125rem;}
+.md-fs-62 {font-size: 3.875rem;}
+.md-fs-63 {font-size: 3.9375rem;}
+.md-fs-64 {font-size: 4rem;}
+.md-fs-65 {font-size: 4.0625rem;}
+.md-fs-66 {font-size: 4.125rem;}
+.md-fs-67 {font-size: 4.1875rem;}
+.md-fs-68 {font-size: 4.25rem;}
+.md-fs-69 {font-size: 4.3125rem;}
+.md-fs-70 {font-size: 4.375rem;}
+.md-fs-71 {font-size: 4.4375rem;}
+.md-fs-72 {font-size: 4.5rem;}
+.md-fs-73 {font-size: 4.5625rem;}
+.md-fs-74 {font-size: 4.625rem;}
+.md-fs-75 {font-size: 4.6875rem;}
+.md-fs-76 {font-size: 4.75rem;}
+.md-fs-77 {font-size: 4.8125rem;}
+.md-fs-78 {font-size: 4.875rem;}
+.md-fs-79 {font-size: 4.9375rem;}
+.md-fs-80 {font-size: 5rem;}
+
+
+}
+
+/* Large screens (desktops) ------------------------------------------------------*/
+@media (min-width: 993px) {
+.lg-none {display: none;}
+.lg-flex {display: flex;}
+.lg-block {display: block;}
+.lg-grid {display: grid;}
+
+.lg-grid-cols-1 {grid-template-columns: repeat(1, minmax(0, 1fr));}
+.lg-grid-cols-2 {grid-template-columns: repeat(2, minmax(0, 1fr));}
+.lg-grid-cols-3 {grid-template-columns: repeat(3, minmax(0, 1fr));}
+.lg-grid-cols-4 {grid-template-columns: repeat(4, minmax(0, 1fr));}
+.lg-grid-cols-5 {grid-template-columns: repeat(5, minmax(0, 1fr));}
+.lg-grid-cols-6 {grid-template-columns: repeat(6, minmax(0, 1fr));}
+.lg-grid-cols-7 {grid-template-columns: repeat(7, minmax(0, 1fr));}
+.lg-grid-cols-8 {grid-template-columns: repeat(8, minmax(0, 1fr));}
+.lg-grid-cols-9 {grid-template-columns: repeat(9, minmax(0, 1fr));}
+.lg-grid-cols-10 {grid-template-columns: repeat(10, minmax(0, 1fr));}
+.lg-grid-cols-11 {grid-template-columns: repeat(11, minmax(0, 1fr));}
+.lg-grid-cols-12 {grid-template-columns: repeat(12, minmax(0, 1fr));}
+/* Font Size Large */ 
+.lg-fs-0 {font-size: 0.00rem;}
+.lg-fs-1 {font-size: 0.0625rem;}
+.lg-fs-2 {font-size: 0.125rem;}
+.lg-fs-3 {font-size: 0.1875rem;}
+.lg-fs-4 {font-size: 0.25rem;}
+.lg-fs-5 {font-size: 0.3125rem;}
+.lg-fs-6 {font-size: 0.375rem;}
+.lg-fs-7 {font-size: 0.4375rem;}
+.lg-fs-8 {font-size: 0.5rem;}
+.lg-fs-9 {font-size: 0.5625rem;}
+.lg-fs-10 {font-size: 0.625rem;}
+.lg-fs-11 {font-size: 0.6875rem;}
+.lg-fs-12 {font-size: 0.75rem;}
+.lg-fs-13 {font-size: 0.8125rem;}
+.lg-fs-14 {font-size: 0.875rem;}
+.lg-fs-15 {font-size: 0.9375rem;}
+.lg-fs-16 {font-size: 1rem;}
+.lg-fs-17 {font-size: 1.0625rem;}
+.lg-fs-18 {font-size: 1.125rem;}
+.lg-fs-19 {font-size: 1.1875rem;}
+.lg-fs-20 {font-size: 1.25rem;}
+.lg-fs-21 {font-size: 1.3125rem;}
+.lg-fs-22 {font-size: 1.375rem;}
+.lg-fs-23 {font-size: 1.4375rem;}
+.lg-fs-24 {font-size: 1.5rem;}
+.lg-fs-25 {font-size: 1.5625rem;}
+.lg-fs-26 {font-size: 1.625rem;}
+.lg-fs-27 {font-size: 1.6875rem;}
+.lg-fs-28 {font-size: 1.75rem;}
+.lg-fs-29 {font-size: 1.8125rem;}
+.lg-fs-30 {font-size: 1.875rem;}
+.lg-fs-31 {font-size: 1.9375rem;}
+.lg-fs-32 {font-size: 2rem;}
+.lg-fs-33 {font-size: 2.0625rem;}
+.lg-fs-34 {font-size: 2.125rem;}
+.lg-fs-35 {font-size: 2.1875rem;}
+.lg-fs-36 {font-size: 2.25rem;}
+.lg-fs-37 {font-size: 2.3125rem;}
+.lg-fs-38 {font-size: 2.375rem;}
+.lg-fs-39 {font-size: 2.4375rem;}
+.lg-fs-40 {font-size: 2.5rem;}
+.lg-fs-41 {font-size: 2.5625rem;}
+.lg-fs-42 {font-size: 2.625rem;}
+.lg-fs-43 {font-size: 2.6875rem;}
+.lg-fs-44 {font-size: 2.75rem;}
+.lg-fs-45 {font-size: 2.8125rem;}
+.lg-fs-46 {font-size: 2.875rem;}
+.lg-fs-47 {font-size: 2.9375rem;}
+.lg-fs-48 {font-size: 3rem;}
+.lg-fs-49 {font-size: 3.0625rem;}
+.lg-fs-50 {font-size: 3.125rem;}
+.lg-fs-51 {font-size: 3.1875rem;}
+.lg-fs-52 {font-size: 3.25rem;}
+.lg-fs-53 {font-size: 3.3125rem;}
+.lg-fs-54 {font-size: 3.375rem;}
+.lg-fs-55 {font-size: 3.4375rem;}
+.lg-fs-56 {font-size: 3.5rem;}
+.lg-fs-57 {font-size: 3.5625rem;}
+.lg-fs-58 {font-size: 3.625rem;}
+.lg-fs-59 {font-size: 3.6875rem;}
+.lg-fs-60 {font-size: 3.75rem;}
+.lg-fs-61 {font-size: 3.8125rem;}
+.lg-fs-62 {font-size: 3.875rem;}
+.lg-fs-63 {font-size: 3.9375rem;}
+.lg-fs-64 {font-size: 4rem;}
+.lg-fs-65 {font-size: 4.0625rem;}
+.lg-fs-66 {font-size: 4.125rem;}
+.lg-fs-67 {font-size: 4.1875rem;}
+.lg-fs-68 {font-size: 4.25rem;}
+.lg-fs-69 {font-size: 4.3125rem;}
+.lg-fs-70 {font-size: 4.375rem;}
+.lg-fs-71 {font-size: 4.4375rem;}
+.lg-fs-72 {font-size: 4.5rem;}
+.lg-fs-73 {font-size: 4.5625rem;}
+.lg-fs-74 {font-size: 4.625rem;}
+.lg-fs-75 {font-size: 4.6875rem;}
+.lg-fs-76 {font-size: 4.75rem;}
+.lg-fs-77 {font-size: 4.8125rem;}
+.lg-fs-78 {font-size: 4.875rem;}
+.lg-fs-79 {font-size: 4.9375rem;}
+.lg-fs-80 {font-size: 5rem;}
+.lg-fs-85 {font-size: 5.3125rem;}
+.lg-fs-90 {font-size: 5.625rem;}
+.lg-fs-95 {font-size: 5.9375rem;}
+.lg-fs-100 {font-size: 6.25rem;}
+.lg-fs-105 {font-size: 6.5625rem;}
+.lg-fs-110 {font-size: 6.875rem;}
+.lg-fs-115 {font-size: 7.1875rem;}
+.lg-fs-120 {font-size: 7.5rem;}
+.lg-fs-125 {font-size: 7.8125rem;}
+.lg-fs-130 {font-size: 8.125rem;}
+.lg-fs-135 {font-size: 8.4375rem;}
+.lg-fs-140 {font-size: 8.75rem;}
+.lg-fs-145 {font-size: 9.0625rem;}
+.lg-fs-150 {font-size: 9.375rem;}
+.lg-fs-155 {font-size: 9.6875rem;}
+.lg-fs-160 {font-size: 10rem;}
+.lg-fs-165 {font-size: 10.3125rem;}
+.lg-fs-170 {font-size: 10.625rem;}
+.lg-fs-175 {font-size: 10.9375rem;}
+.lg-fs-180 {font-size: 11.25rem;}
+.lg-fs-190 {font-size: 11.875rem;}
+.lg-fs-200 {font-size: 12.5rem;}
+.lg-fs-210 {font-size: 13.125rem;}
+.lg-fs-220 {font-size: 13.75rem;}
+.lg-fs-230 {font-size: 14.375rem;}
+.lg-fs-240 {font-size: 15rem;}
+.lg-fs-250 {font-size: 15.625rem;}
+.lg-fs-260 {font-size: 16.25rem;}
+.lg-fs-270 {font-size: 16.875rem;}
+.lg-fs-280 {font-size: 17.5rem;}
+.lg-fs-290 {font-size: 18.125rem;}
+.lg-fs-300 {font-size: 18.75rem;}
+
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="../slys/components/components.css">
+ <link rel="stylesheet" href="../slys/slys/slys.css">
+ <title>Greetings</title>
+</head>
+<body>
+
+<!---- SignIn and Register Data Load fron js ----->
+ <section id="main-section"></section>
+
+
+  <script src="../hooks/hooks.js"></script>
+  <script src="../function/function.js"></script>
+ <script>
+// get ls data
+const [users, setUsers] = useState([]);
+// function getUsersDatabase start
+function getUsersDatabase(){
+const lsId = localStorage.getItem('slys-messenger-datas'); 
+ if(!lsId){
+   signInForm();
+   showElementById('signin-form-section');
+ }
+// fetch get db users
+ fetch(userUrl, {
+  method: "GET", headers: {'content-type':'application/json'}
+ }).then((res)=> res.json()).then((allUsers)=> {
+  setUsers(allUsers); //hooks
+  const findId = allUsers.find((allUser)=> allUser._id === lsId);
+  if(findId._id === lsId){
+    location.assign('chats.html');    
+  }
+ });
+}// getUsersDatabase fn end 
+getUsersDatabase();
+
+
+
+
+// signInForm start
+function signInForm(){
+  document.getElementById('main-section').innerHTML = `
+<!-- Sign in form -->
+ <section id="signin-form-section" class="absolute w-100-pr top-0 left-0 none">
+  <div class="container mt-20">
+    <div class="content form w-85-pr">
+        <!-- form data load js -->
+  <div class="Title text-center">
+   <h1 class="fs-33 aqua-5">Login form</h1>
+  </div>
+  <div class="inp mt-20">
+    <input class="input" type="text" id="emailNumber" placeholder="Email or number">
+  </div>
+  <div class="inp mt-15">
+    <input class="input" type="password" id="password" placeholder="Password">
+  </div>
+  <div class="btn my-30 text-center mt-30">
+    <button class="btn-md danger" id="login-form-btn" onclick="signInFormSubmit()">Login</button>
+  </div>
+  <div class="message text-center h-15">
+   <p id="display" class="fs-15 aqua"></p>
+  </div>
+        <!-- form data load js -->
+    </div>
+  </div>
+ </section>`; 
+
+}//signInForm end
+
+  const display = document.getElementById('display');
+
+// signInFormSubmit start
+function signInFormSubmit() {
+  const inpEmailNum = document.getElementById('emailNumber');
+  const inpPass = document.getElementById('password');
+  const emailNumber = inpEmailNum.value.trim();
+  const password = inpPass.value.trim();
+
+  if(!emailNumber || !password){
+   return display.innerHTML = 'All fieled are required *';
+  }
+ const dbUsers = users(0);
+ const dbData = dbUsers.find((user)=> (user.password === password) && (user.number === emailNumber || user.email === emailNumber));
+
+ if(dbData){ 
+  display.innerHTML = 'Welcome';
+  localStorage.setItem('slys-messenger-datas', dbData._id);  
+   location.assign('chats.html');
+ }else{
+    display.innerHTML = 'Email or password not matched';
+ }
+
+}//signInFormSubmit fn end
+
+
+  </script>
+
+    
+
+
+</body>
+</html>

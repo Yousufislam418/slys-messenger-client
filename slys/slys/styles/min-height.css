@@ -1,0 +1,50 @@
+/* Percent */
+.min-h-0-pr {min-height: 0%;} .min-h-1-pr {min-height: 1%;} .min-h-2-pr {min-height: 2%;} 
+.min-h-3-pr {min-height: 3%;} .min-h-4-pr {min-height: 4%;} .min-h-5-pr {min-height: 5%;} 
+.min-h-6-pr {min-height: 6%;} .min-h-7-pr {min-height: 7%;} .min-h-8-pr {min-height: 8%;} 
+.min-h-9-pr {min-height: 9%;} .min-h-10-pr {min-height: 10%;} .min-h-11-pr {min-height: 11%;} 
+.min-h-12-pr {min-height: 12%;} .min-h-15-pr {min-height: 15%;} .min-h-20-pr {min-height: 20%;} 
+.min-h-25-pr {min-height: 25%;} .min-h-30-pr {min-height: 30%;} .min-h-35-pr {min-height: 35%;} 
+.min-h-40-pr {min-height: 40%;} .min-h-45-pr {min-height: 45%;} .min-h-50-pr {min-height: 50%;} 
+.min-h-55-pr {min-height: 55%;} .min-h-60-pr {min-height: 60%;} .min-h-65-pr {min-height: 65%;} 
+.min-h-70-pr {min-height: 70%;} .min-h-75-pr {min-height: 75%;} .min-h-80-pr {min-height: 80%;} 
+.min-h-85-pr {min-height: 85%;} .min-h-90-pr {min-height: 90%;} .min-h-95-pr {min-height: 95%;} 
+.min-h-98-pr {min-height: 98%;} .min-h-99-pr {min-height: 99%;} .min-h-100-pr {min-height: 100%;} 
+
+/* PX to Rem */
+.min-h-0 {min-height: 0.00rem;} .min-h-1 {min-height: 0.0625rem;} .min-h-2 {min-height: 0.125rem;} 
+.min-h-3 {min-height: 0.1875rem;} .min-h-4 {min-height: 0.25rem;} .min-h-5 {min-height: 0.3125rem;} 
+.min-h-6 {min-height: 0.375rem;} .min-h-7 {min-height: 0.4375rem;} .min-h-8 {min-height: 0.5rem;} 
+.min-h-9 {min-height: 0.5625rem;} .min-h-10 {min-height: 0.625rem;} .min-h-11 {min-height: 0.6875rem;} 
+.min-h-12 {min-height: 0.75rem;} .min-h-15 {min-height: 0.9375rem;} .min-h-18 {min-height: 1.125rem;} 
+.min-h-20 {min-height: 1.25rem;} .min-h-25 {min-height: 1.562rem;} .min-h-30 {min-height: 1.875rem;}
+.min-h-35 {min-height: 2.1875rem;} .min-h-40 {min-height: 2.5rem;} .min-h-45 {min-height: 2.8125rem;} 
+.min-h-50 {min-height: 3.125rem;} .min-h-55 {min-height: 3.4375rem;} .min-h-60 {min-height: 3.75rem;} 
+.min-h-65 {min-height: 4.0625rem;} .min-h-70 {min-height: 4.375rem;} .min-h-75 {min-height: 4.6875rem;} 
+.min-h-80 {min-height: 5rem;} .min-h-85 {min-height: 5.3125rem;} .min-h-90 {min-height: 5.625rem;} 
+.min-h-95 {min-height: 5.9375rem;} .min-h-100 {min-height: 6.25rem;} .min-h-110 {min-height: 6.875rem;} 
+.min-h-120 {min-height: 7.5rem;} .min-h-130 {min-height: 8.125rem;} .min-h-140 {min-height: 8.75rem;} 
+.min-h-150 {min-height: 9.375rem;} .min-h-160 {min-height: 10rem;} .min-h-170 {min-height: 10.625rem;} 
+.min-h-180 {min-height: 11.25rem;} .min-h-190 {min-height: 11.875rem;} .min-h-200 {min-height: 12.5rem;} 
+.min-h-210 {min-height: 13.125rem;} .min-h-220 {min-height: 13.75rem;} .min-h-230 {min-height: 14.375rem;} 
+.min-h-240 {min-height: 15rem;} .min-h-250 {min-height: 15.625rem;} .min-h-260 {min-height: 16.25rem;} 
+.min-h-270 {min-height: 16.875rem;} .min-h-280 {min-height: 17.5rem;} .min-h-290 {min-height: 18.125rem;} 
+.min-h-300 {min-height: 18.75rem;} .min-h-310 {min-height: 19.375rem;} .min-h-320 {min-height: 20rem;} 
+.min-h-330 {min-height: 20.625rem;} .min-h-340 {min-height: 21.25rem;} .min-h-350 {min-height: 21.875rem;} 
+.min-h-360 {min-height: 22.5rem;} .min-h-370 {min-height: 23.125rem;} .min-h-380 {min-height: 23.75rem;} 
+.min-h-390 {min-height: 24.375rem;} .min-h-400 {min-height: 25rem;} .min-h-410 {min-height: 25.625rem;} 
+.min-h-420 {min-height: 26.25rem;} .min-h-430 {min-height: 26.875rem;} .min-h-440 {min-height: 27.5rem;} 
+.min-h-450 {min-height: 28.125rem;} .min-h-460 {min-height: 28.75rem;} .min-h-470 {min-height: 29.375rem;} 
+.min-h-480 {min-height: 30rem;} .min-h-490 {min-height: 30.625rem;} .min-h-500 {min-height: 31.25rem;} 
+.min-h-520 {min-height: 32.5rem;} .min-h-530 {min-height: 33.125rem;} .min-h-550 {min-height: 34.375rem;} 
+.min-h-580 {min-height: 36.25rem;} .min-h-600 {min-height: 37.5rem;} .min-h-630 {min-height: 39.375rem;} 
+.min-h-650 {min-height: 40.625rem;} .min-h-680 {min-height: 42.5rem;} .min-h-700 {min-height: 43.75rem;} 
+.min-h-750 {min-height: 46.875rem;} .min-h-800 {min-height: 50rem;} .min-h-min {min-height: min-content;} 
+.min-h-max {min-height: max-content;} .min-h-fit {min-height: fit-content;} .min-h-vh {min-height: 100vh;}
+.min-h-auto {min-height: auto;}
+
+/* Divide */
+.min-h-1-12	{min-height: 8.333333%;} .min-h-2-12	{min-height: 16.666667%;} .min-h-3-12 {min-height: 25%;}
+.min-h-4-12	{min-height: 33.333333%;} .min-h-5-12 {min-height: 41.666667%;} .min-h-6-12 {min-height: 50%;} 
+.min-h-7-12	{min-height: 58.333333%;} .min-h-8-12 {min-height: 66.666667%;} .min-h-9-12 {min-height: 75%;} 
+.min-h-10-12 {min-height: 83.333333%;} .min-h-11-12 {min-height: 91.666667%;} .min-h-full {min-height: 100%;}

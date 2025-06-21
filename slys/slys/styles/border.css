@@ -1,0 +1,32 @@
+/*----------------------------------------------------*/
+/*-----------------------Border----------------------*/
+/*--------------------------------------------------*/
+.border-none {border: none;}
+.border-1 {border: solid 1px;}
+.border-2 {border: solid 2px;}
+.border-3 {border: solid 3px;}
+.border-4 {border: solid 4px;}
+.border-5 {border: solid 5px;}
+.border-6 {border: solid 6px;}
+.border-7 {border: solid 7px;}
+.border-8 {border: solid 8px;}
+.border-9 {border: solid 9px;}
+.border-10 {border: solid 10px;}
+.border-11 {border: solid 11px;}
+.border-12 {border: solid 12px;}
+.border-13 {border: solid 13px;}
+.border-14 {border: solid 14px;}
+.border-15 {border: solid 15px;} 
+.border-16 {border: solid 16px;} 
+.border-17 {border: solid 17px;} 
+.border-18 {border: solid 18px;} 
+.border-19 {border: solid 19px;} 
+.border-20 {border: solid 20px;} 
+/* -- */
+.border-t-none {border-top: none;}
+.border-r-none {border-right: none;}
+.border-b-none {border-bottom: none;}
+.border-l-none {border-left: none;}
+.border-x-none {border-left: none; border-right: none;}
+.border-y-none {border-top: none; border-bottom: none;}
+

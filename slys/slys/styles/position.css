@@ -1,0 +1,89 @@
+/* ----------------------------- */
+.static {position: static;}
+.absolute {position: absolute;}
+.relative {position: relative;}
+.fixed {position: fixed;}
+.sticky {position: sticky;}
+
+/* Top */
+.top-0 {top: 0.00rem;}     .top-1 {top: 0.0625rem;}   .top-2 {top: 0.125rem;} 
+.top-3 {top: 0.1875rem;}   .top-4 {top: 0.25rem;}     .top-5 {top: 0.3125rem;} 
+.top-6 {top: 0.375rem;}    .top-7 {top: 0.4375rem;}   .top-8 {top: 0.5rem;} 
+.top-9 {top: 0.5625rem;}   .top-10 {top: 0.625rem;}   .top-11 {top: 0.6875rem;} 
+.top-12 {top: 0.75rem;}    .top-15 {top: 0.9375rem;}  .top-18 {top: 1.125rem;} 
+.top-20 {top: 1.25rem;}    .top-25 {top: 1.562rem;}   .top-30 {top: 1.875rem;}
+.top-35 {top: 2.1875rem;}  .top-40 {top: 2.5rem;}     .top-45 {top: 2.8125rem;} 
+.top-50 {top: 3.125rem;}   .top-55 {top: 3.4375rem;}  .top-60 {top: 3.75rem;} 
+.top-65 {top: 4.0625rem;}  .top-70 {top: 4.375rem;}   .top-75 {top: 4.6875rem;} 
+.top-80 {top: 5rem;}       .top-85 {top: 5.3125rem;}  .top-90 {top: 5.625rem;} 
+.top-95 {top: 5.9375rem;}  .top-100 {top: 6.25rem;}   .top-110 {top: 6.875rem;} 
+.top-120 {top: 7.5rem;}    .top-130 {top: 8.125rem;}  .top-140 {top: 8.75rem;} 
+.top-150 {top: 9.375rem;}  .top-160 {top: 10rem;}     .top-170 {top: 10.625rem;} 
+.top-180 {top: 11.25rem;}  .top-190 {top: 11.875rem;} .top-200 {top: 12.5rem;} 
+.top-210 {top: 13.125rem;} .top-220 {top: 13.75rem;}  .top-230 {top: 14.375rem;} 
+.top-240 {top: 15rem;}     .top-250 {top: 15.625rem;} .top-260 {top: 16.25rem;} 
+.top-270 {top: 16.875rem;} .top-280 {top: 17.5rem;}   .top-290 {top: 18.125rem;} 
+.top-300 {top: 18.75rem;}
+
+/* Right */
+.right-0 {right: 0.00rem;}     .right-1 {right: 0.0625rem;}   .right-2 {right: 0.125rem;} 
+.right-3 {right: 0.1875rem;}   .right-4 {right: 0.25rem;}     .right-5 {right: 0.3125rem;} 
+.right-6 {right: 0.375rem;}    .right-7 {right: 0.4375rem;}   .right-8 {right: 0.5rem;} 
+.right-9 {right: 0.5625rem;}   .right-10 {right: 0.625rem;}   .right-11 {right: 0.6875rem;} 
+.right-12 {right: 0.75rem;}    .right-15 {right: 0.9375rem;}  .right-18 {right: 1.125rem;} 
+.right-20 {right: 1.25rem;}    .right-25 {right: 1.562rem;}   .right-30 {right: 1.875rem;}
+.right-35 {right: 2.1875rem;}  .right-40 {right: 2.5rem;}     .right-45 {right: 2.8125rem;} 
+.right-50 {right: 3.125rem;}   .right-55 {right: 3.4375rem;}  .right-60 {right: 3.75rem;} 
+.right-65 {right: 4.0625rem;}  .right-70 {right: 4.375rem;}   .right-75 {right: 4.6875rem;} 
+.right-80 {right: 5rem;}       .right-85 {right: 5.3125rem;}  .right-90 {right: 5.625rem;} 
+.right-95 {right: 5.9375rem;}  .right-100 {right: 6.25rem;}   .right-110 {right: 6.875rem;} 
+.right-120 {right: 7.5rem;}    .right-130 {right: 8.125rem;}  .right-140 {right: 8.75rem;} 
+.right-150 {right: 9.375rem;}  .right-160 {right: 10rem;}     .right-170 {right: 10.625rem;} 
+.right-180 {right: 11.25rem;}  .right-190 {right: 11.875rem;} .right-200 {right: 12.5rem;} 
+.right-210 {right: 13.125rem;} .right-220 {right: 13.75rem;}  .right-230 {right: 14.375rem;} 
+.right-240 {right: 15rem;}     .right-250 {right: 15.625rem;} .right-260 {right: 16.25rem;} 
+.right-270 {right: 16.875rem;} .right-280 {right: 17.5rem;}   .right-290 {right: 18.125rem;} 
+.right-300 {right: 18.75rem;}
+
+/* Bottom */
+.bottom-0 {bottom: 0.00rem;}     .bottom-1 {bottom: 0.0625rem;}   .bottom-2 {bottom: 0.125rem;} 
+.bottom-3 {bottom: 0.1875rem;}   .bottom-4 {bottom: 0.25rem;}     .bottom-5 {bottom: 0.3125rem;} 
+.bottom-6 {bottom: 0.375rem;}    .bottom-7 {bottom: 0.4375rem;}   .bottom-8 {bottom: 0.5rem;} 
+.bottom-9 {bottom: 0.5625rem;}   .bottom-10 {bottom: 0.625rem;}   .bottom-11 {bottom: 0.6875rem;} 
+.bottom-12 {bottom: 0.75rem;}    .bottom-15 {bottom: 0.9375rem;}  .bottom-18 {bottom: 1.125rem;} 
+.bottom-20 {bottom: 1.25rem;}    .bottom-25 {bottom: 1.562rem;}   .bottom-30 {bottom: 1.875rem;}
+.bottom-35 {bottom: 2.1875rem;}  .bottom-40 {bottom: 2.5rem;}     .bottom-45 {bottom: 2.8125rem;} 
+.bottom-50 {bottom: 3.125rem;}   .bottom-55 {bottom: 3.4375rem;}  .bottom-60 {bottom: 3.75rem;} 
+.bottom-65 {bottom: 4.0625rem;}  .bottom-70 {bottom: 4.375rem;}   .bottom-75 {bottom: 4.6875rem;} 
+.bottom-80 {bottom: 5rem;}       .bottom-85 {bottom: 5.3125rem;}  .bottom-90 {bottom: 5.625rem;} 
+.bottom-95 {bottom: 5.9375rem;}  .bottom-100 {bottom: 6.25rem;}   .bottom-110 {bottom: 6.875rem;} 
+.bottom-120 {bottom: 7.5rem;}    .bottom-130 {bottom: 8.125rem;}  .bottom-140 {bottom: 8.75rem;} 
+.bottom-150 {bottom: 9.375rem;}  .bottom-160 {bottom: 10rem;}     .bottom-170 {bottom: 10.625rem;} 
+.bottom-180 {bottom: 11.25rem;}  .bottom-190 {bottom: 11.875rem;} .bottom-200 {bottom: 12.5rem;} 
+.bottom-210 {bottom: 13.125rem;} .bottom-220 {bottom: 13.75rem;}  .bottom-230 {bottom: 14.375rem;} 
+.bottom-240 {bottom: 15rem;}     .bottom-250 {bottom: 15.625rem;} .bottom-260 {bottom: 16.25rem;} 
+.bottom-270 {bottom: 16.875rem;} .bottom-280 {bottom: 17.5rem;}   .bottom-290 {bottom: 18.125rem;} 
+.bottom-300 {bottom: 18.75rem;} 
+
+/* Left */
+.left-0 {left: 0.00rem;}     .left-1 {left: 0.0625rem;}   .left-2 {left: 0.125rem;} 
+.left-3 {left: 0.1875rem;}   .left-4 {left: 0.25rem;}     .left-5 {left: 0.3125rem;} 
+.left-6 {left: 0.375rem;}    .left-7 {left: 0.4375rem;}   .left-8 {left: 0.5rem;} 
+.left-9 {left: 0.5625rem;}   .left-10 {left: 0.625rem;}   .left-11 {left: 0.6875rem;} 
+.left-12 {left: 0.75rem;}    .left-15 {left: 0.9375rem;}  .left-18 {left: 1.125rem;} 
+.left-20 {left: 1.25rem;}    .left-25 {left: 1.562rem;}   .left-30 {left: 1.875rem;}
+.left-35 {left: 2.1875rem;}  .left-40 {left: 2.5rem;}     .left-45 {left: 2.8125rem;} 
+.left-50 {left: 3.125rem;}   .left-55 {left: 3.4375rem;}  .left-60 {left: 3.75rem;} 
+.left-65 {left: 4.0625rem;}  .left-70 {left: 4.375rem;}   .left-75 {left: 4.6875rem;} 
+.left-80 {left: 5rem;}       .left-85 {left: 5.3125rem;}  .left-90 {left: 5.625rem;} 
+.left-95 {left: 5.9375rem;}  .left-100 {left: 6.25rem;}   .left-110 {left: 6.875rem;} 
+.left-120 {left: 7.5rem;}    .left-130 {left: 8.125rem;}  .left-140 {left: 8.75rem;} 
+.left-150 {left: 9.375rem;}  .left-160 {left: 10rem;}     .left-170 {left: 10.625rem;} 
+.left-180 {left: 11.25rem;}  .left-190 {left: 11.875rem;} .left-200 {left: 12.5rem;} 
+.left-210 {left: 13.125rem;} .left-220 {left: 13.75rem;}  .left-230 {left: 14.375rem;} 
+.left-240 {left: 15rem;}     .left-250 {left: 15.625rem;} .left-260 {left: 16.25rem;} 
+.left-270 {left: 16.875rem;} .left-280 {left: 17.5rem;}   .left-290 {left: 18.125rem;} 
+.left-300 {left: 18.75rem;} 
+
+.top-auto {top: auto;} .right-auto {right: auto;} 
+.bottom-auto {bottom: auto;} .left-auto {left: auto;}
