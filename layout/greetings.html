@@ -25,7 +25,7 @@ const lsId = localStorage.getItem('slys-messenger-datas');
  signInForm();
 showElementById('signin-form-section');
 return; 
- }
+ }else if(lsId){
 // fetch get db users
  fetch(userUrl, {
   method: "GET", headers: {'content-type':'application/json'}
@@ -36,12 +36,12 @@ return;
     location.assign('chats.html');    
   }
  });
+ }
 }// getUsersDatabase fn end 
 getUsersDatabase();
 
 
-
-const mainSection = document.getElementById('main-section');
+let mainSection = document.getElementById('main-section');
 // signInForm start
 function signInForm(){ 
 mainSection.innerHTML = '';
