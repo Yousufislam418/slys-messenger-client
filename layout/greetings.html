@@ -22,8 +22,9 @@ const [users, setUsers] = useState([]);
 function getUsersDatabase(){
 const lsId = localStorage.getItem('slys-messenger-datas'); 
  if(!lsId){
-   signInForm();
- 
+ signInForm();
+showElementById('signin-form-section');
+return; 
  }
 // fetch get db users
  fetch(userUrl, {
@@ -47,7 +48,7 @@ mainSection.innerHTML = '';
 mainSection.innerHTML = `
 <!-- Sign in form -->
  <section id="signin-form-section" class="absolute w-100-pr top-0 left-0 non">
-  <div class="container mt-20">
+  <div class="container mt-20 none">
     <div class="content form w-85-pr">
         <!-- form data load js -->
   <div class="Title text-center">
