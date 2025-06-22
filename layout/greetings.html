@@ -16,6 +16,8 @@
   <script src="../hooks/hooks.js"></script>
   <script src="../function/function.js"></script>
  <script>
+ let mainSection = document.getElementById('main-section');
+  
 // get ls data
 const [users, setUsers] = useState([]);
 // function getUsersDatabase start
@@ -41,7 +43,6 @@ return;
 getUsersDatabase();
 
 
-let mainSection = document.getElementById('main-section');
 // signInForm start
 function signInForm(){ 
 mainSection.innerHTML = '';
