@@ -16,17 +16,22 @@
   <script src="../hooks/hooks.js"></script>
   <script src="../function/function.js"></script>
  <script>
+<<<<<<< HEAD
 // get main section id from html file
 const mainSection = document.getElementById('main-section');
+=======
+ let mainSection = document.getElementById('main-section');
+>>>>>>> 7045eeb6419b80f80064ff767350c379d2283813
 // get ls data
 const [users, setUsers] = useState([]);
 // function getUsersDatabase start
 function getUsersDatabase(){
 const lsId = localStorage.getItem('slys-messenger-datas'); 
  if(!lsId){
-   signInForm();
-   showElementById('signin-form-section');
- }
+ signInForm();
+showElementById('signin-form-section');
+ 
+ 
 // fetch get db users
  fetch(userUrl, {
   method: "GET", headers: {'content-type':'application/json'}
@@ -37,6 +42,7 @@ const lsId = localStorage.getItem('slys-messenger-datas');
     location.assign('chats.html');    
   }
  });
+ }
 }// getUsersDatabase fn end 
 getUsersDatabase();
 
@@ -75,6 +81,8 @@ mainSection.innerHTML = `
  </section>`; 
 
 }//signInForm end
+//signInForm();
+
 
   const display = document.getElementById('display');
 
@@ -102,10 +110,13 @@ function signInFormSubmit() {
 }//signInFormSubmit fn end
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7045eeb6419b80f80064ff767350c379d2283813
 // user Registration Form 
 function userRegistrationForm(){
- mainSection.innerHTML = '';
+// mainSection.innerHTML = '';
  mainSection.innerHTML = `
  <div class="container">
   <div class="content">
