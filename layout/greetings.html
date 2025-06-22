@@ -26,11 +26,12 @@ const lsId = localStorage.getItem('slys-messenger-datas');
  if(!lsId){
    signInForm();
    showElementById('signin-form-section');
+  
  }
 // fetch get db users
  fetch(userUrl, {
   method: "GET", headers: {'content-type':'application/json'}
- }).then((res)=> res.json()).then((allUsers)=> {
+ }).then(res => res.json()).then( allUsers => {
   setUsers(allUsers); //hooks
   const findId = allUsers.find((allUser)=> allUser._id === lsId);
   if(findId){
