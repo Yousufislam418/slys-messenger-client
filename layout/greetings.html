@@ -17,7 +17,6 @@
   <script src="../function/function.js"></script>
  <script>
  let mainSection = document.getElementById('main-section');
-  
 // get ls data
 const [users, setUsers] = useState([]);
 // function getUsersDatabase start
@@ -26,7 +25,8 @@ const lsId = localStorage.getItem('slys-messenger-datas');
  if(!lsId){
  signInForm();
 showElementById('signin-form-section');
-return; 
+
+ 
  }else if(lsId){
 // fetch get db users
  fetch(userUrl, {
@@ -34,7 +34,7 @@ return;
  }).then((res)=> res.json()).then((allUsers)=> {
   setUsers(allUsers); //hooks
   const findId = allUsers.find((allUser)=> allUser._id === lsId);
-  if(findId._id === lsId){
+  if(findId){
     location.assign('chats.html');    
   }
  });
@@ -43,13 +43,14 @@ return;
 getUsersDatabase();
 
 
+
 // signInForm start
 function signInForm(){ 
 mainSection.innerHTML = '';
 mainSection.innerHTML = `
 <!-- Sign in form -->
- <section id="signin-form-section" class="absolute w-100-pr top-0 left-0 non">
-  <div class="container mt-20 none">
+ <section id="signin-form-section" class="absolute w-100-pr top-0 left-0 none">
+  <div class="container mt-20">
     <div class="content form w-85-pr">
         <!-- form data load js -->
   <div class="Title text-center">
@@ -76,6 +77,8 @@ mainSection.innerHTML = `
  </section>`; 
 
 }//signInForm end
+//signInForm();
+
 
   const display = document.getElementById('display');
 
@@ -105,7 +108,7 @@ function signInFormSubmit() {
 
 // user Registration Form 
 function userRegistrationForm(){
- mainSection.innerHTML = '';
+// mainSection.innerHTML = '';
  mainSection.innerHTML = `
  <div class="container">
   <div class="content">
