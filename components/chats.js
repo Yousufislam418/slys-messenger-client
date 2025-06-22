@@ -3,10 +3,6 @@ const yousufImg = 'https://i.ibb.co/wFwyycJn/myimage.jpg';
 const chatbox = document.getElementById('chat-box');
 const displayUser = document.getElementById('display-user');
 
-if(!lsId){
-   location.assign('greetings.html');
-}
-
 // Custom hook
 const [userData, setUserData] = useState([]); 
 const [chatData, setChatData] = useState([]); 

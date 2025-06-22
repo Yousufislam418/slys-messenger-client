@@ -16,6 +16,8 @@
   <script src="../hooks/hooks.js"></script>
   <script src="../function/function.js"></script>
  <script>
+// get main section id from html file
+const mainSection = document.getElementById('main-section');
 // get ls data
 const [users, setUsers] = useState([]);
 // function getUsersDatabase start
@@ -31,7 +33,7 @@ const lsId = localStorage.getItem('slys-messenger-datas');
  }).then((res)=> res.json()).then((allUsers)=> {
   setUsers(allUsers); //hooks
   const findId = allUsers.find((allUser)=> allUser._id === lsId);
-  if(findId._id === lsId){
+  if(findId){
     location.assign('chats.html');    
   }
  });
@@ -40,13 +42,12 @@ getUsersDatabase();
 
 
 
-const mainSection = document.getElementById('main-section');
 // signInForm start
 function signInForm(){ 
 mainSection.innerHTML = '';
 mainSection.innerHTML = `
 <!-- Sign in form -->
- <section id="signin-form-section" class="absolute w-100-pr top-0 left-0 non">
+ <section id="signin-form-section" class="absolute w-100-pr top-0 left-0 none">
   <div class="container mt-20">
     <div class="content form w-85-pr">
         <!-- form data load js -->
@@ -63,7 +64,7 @@ mainSection.innerHTML = `
     <button class="btn-md danger" id="login-form-btn" onclick="signInFormSubmit()">Login</button>
   </div>
   <div class="message text-center mt-15 h-15">
-   <p id="display" class="fs-18 bold-500 purple">Display</p>
+   <p id="display" class="fs-18 bold-500 purple"></p>
   </div>
   <div class="message text-end mt-10 h-15">
    <p class="fs-16 base-8">You have no account?<span onclick="userRegistrationForm()" class="aqua fs-20 pointer mx-5">Register</span></p>
@@ -101,7 +102,6 @@ function signInFormSubmit() {
 }//signInFormSubmit fn end
 
 
-   signInForm();
 
 // user Registration Form 
 function userRegistrationForm(){
