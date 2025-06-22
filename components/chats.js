@@ -47,7 +47,7 @@ userLists.forEach((user,index)=> {
  displayUser.innerHTML += `
  <div class="p-10 bg-base-8">
   <h1 id="userIds" class="base btn-md flex align-items-center" onclick="userOnClick('${user._id}')">
-   <img class="base mr-10 w-40 h-40 border-1 -aqua-3 object-fit-cover round" src="${user && user.img || user.image }">${user.number}</h1>
+   <img class="base mr-10 w-40 h-40 border-1 -aqua-3 object-fit-cover round" src="${user?.image }">${user.number}</h1>
  </div>`;
 });
 }// userDataDisplay fn end
