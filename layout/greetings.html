@@ -29,12 +29,13 @@ const lsId = localStorage.getItem('slys-messenger-datas');
   
  }
 // fetch get db users
- fetch(userUrl, {
-  method: "GET", headers: {'content-type':'application/json'}
- }).then(res => res.json()).then( allUsers => {
-  setUsers(allUsers); //hooks
-  const findId = allUsers.find((allUser)=> allUser._id === lsId);
-  if(findId){
+ fetch(userUrl,{
+  method: "GET", headers: {'content-type':'application/json'} 
+ }).then(res=> res.json()).then(allUsers => {
+   setUsers(allUsers); //hooks
+
+  const findId = allUsers.find(allUser => allUser._id === lsId);
+   if(findId){
     location.assign('chats.html');    
   }
  });
@@ -110,30 +111,30 @@ function userRegistrationForm(){
  mainSection.innerHTML = `
  <div class="container">
   <div class="content">
- <form id="user-reg-form-data" class="form w-70-pr">
+ <div id="user-reg-form-data" class="form w-70-pr">
   <div class="title text-center">
   <h1 class="fs-30 aqua-8">User Registration Form</h1>
   </div>
   <div class="inp mt-15">
-  <input class="input" type="text" name="name" maxlength="25" placeholder="Name">
+  <input class="input" type="text" id="name" maxlength="25" placeholder="Name" required>
   </div>
   <div class="inp mt-8">
-  <input class="input" type="number" name="number" placeholder="Number">
+  <input class="input" type="number" id="number" placeholder="Number">
   </div>
   <div class="inp mt-8">
-  <input class="input" type="email" name="email" placeholder="Email">
+  <input class="input" type="email" id="email" placeholder="Email">
   </div>
   <div class="inp mt-8">
-  <input class="input" type="password" name="password" placeholder="Password">
+  <input class="input" type="password" id="password" placeholder="Password">
   </div>
   <div class="inp mt-8">
-  <input class="input" type="text" name="location" placeholder="Location">
+  <input class="input" type="text" id="location" placeholder="Location">
   </div>
   <div class="inp mt-8">
-  <input class="input" type="text" name="image" placeholder="image">
+  <input class="input" type="text" id="image" placeholder="image">
   </div>
   <div class="button mt-20 text-center">
-  <input type="submit" class="btn-md danger" value="Submit">
+  <button onclick="userRegistrationSubmit()" class="btn-md danger">Submit</button>
   </div>
   <div class="mt-8 text-center">
   <p id="msg" class="fs-18 bold-500 lime">Message</p>
@@ -141,7 +142,7 @@ function userRegistrationForm(){
   <div class="link text-right mt-8">
   <p id="msg" class="fs-18 bold-500 aqua-1">You have an already account?<span onclick="signInForm()" class="aqua mx-5 fs-20 pointer">Signin</span></p>
   </div>
- </form>
+ </div>
   </div>
  </div>`;
 
@@ -149,27 +150,29 @@ function userRegistrationForm(){
 // userRegistrationForm();
 
 
-const msg = document.getElementById('msg');
-const userRegForm = document.getElementById('user-reg-form-data');
- if(userRegForm){
-userRegForm.onsubmit =(e)=> {
-  e.preventDefault();
- const formData = new FormData(userRegForm);
- const {name,number,email,password,location,image} = Object.fromEntries(formData.entries());
+// userRegistrationSubmit start
+function userRegistrationSubmit() { 
+ const msg = document.getElementById('msg');
+ const nameInp = document.getElementById('name');
+ const numberInp = document.getElementById('number');
+ const emailInp = document.getElementById('email');
+ const passwordInp = document.getElementById('password');
+ const locationInp = document.getElementById('location');
+ const imageInp = document.getElementById('image');
+
+ const name = nameInp.value.trim();
+ const number = numberInp.value.trim();
+ const email = emailInp.value.trim();
+ const password = passwordInp.value.trim();
+ const location = locationInp.value.trim();
+ const image = imageInp.value.trim();
+ const date = Date.now();
 
  if(!name || !number || !email || !password || !location || !image){
-   msg.innerHTML = 'All fieled are required';
+  return msg.innerHTML = 'All fieled are required';
  }
 
- const datas = {
-  name: name.trim(),
-  number: number.trim(),
-  email: email.trim(),
-  password: password.trim(),
-  location: location.trim(),
-  image: image.trim(),
-  date: Date.now()
- }
+ const datas = { name, number, email, password, location, image, date };
 // data set database
 fetch(userUrl,{
   method: "POST",
@@ -180,7 +183,6 @@ fetch(userUrl,{
   
 });
 
-  }
  }
 
 
