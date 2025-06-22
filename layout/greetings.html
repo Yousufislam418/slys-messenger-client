@@ -23,7 +23,7 @@ function getUsersDatabase(){
 const lsId = localStorage.getItem('slys-messenger-datas'); 
  if(!lsId){
    signInForm();
-   showElementById('signin-form-section');
+ 
  }
 // fetch get db users
  fetch(userUrl, {
@@ -100,8 +100,6 @@ function signInFormSubmit() {
 
 }//signInFormSubmit fn end
 
-
-   signInForm();
 
 // user Registration Form 
 function userRegistrationForm(){
