@@ -36,7 +36,7 @@ const lsId = localStorage.getItem('slys-messenger-datas');
 
   const findId = allUsers.find(allUser => allUser._id === lsId);
    if(findId){
-    location.assign('chats.html');    
+    location.assign('home.html');    
   }
  });
 }// getUsersDatabase fn end 
@@ -96,7 +96,7 @@ function signInFormSubmit() {
  if(dbData){ 
   display.innerHTML = 'Welcome';
   localStorage.setItem('slys-messenger-datas', dbData._id);  
-   location.assign('chats.html');
+   location.assign('home.html');
  }else{
     display.innerHTML = 'Email or password not matched';
  }
