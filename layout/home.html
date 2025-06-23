@@ -8,26 +8,45 @@
     <title>Home</title>
 </head>
 <body>
+<!-- All User Profile Details -->
+ <section> 
+  <div id="allUser-show-display" class="container flex flex-wrap center-x">
+<!-- contents load from js -->
+  </div>
+ </section>
 
-    <h1 class="fs-30 red text-center">This is Home</h1>
-  
-    <button class="mx-auto btn-lg danger" onclick="updateData()">Update</button>
 
- <script src="../hooks/hooks.js"></script>
-    <script>
-        function updateData(){ 
- return;
-     const id = '6852fd68812f079de1467489';
+ <script src="../function/function.js"></script>
+ <script>
+    fetch(userUrl, {
+        method: "GET",
+        headers: {'content-type':'application/josn'}
+    }).then(res => res.json()).then(dbUsers => {
+      dbUsers.forEach(dbUser => {
+ document.getElementById('allUser-show-display').innerHTML += `
+ <div class="content border-1 -aqua-3">
+  <div class="bg-base-5 text-center w-300 m-10 p-15 radius-10 shadow-3">
+   <div class="border-1 -aqua-3 radius-10 p-10">
+    <img class="w-100 h-100 mt-10 round border-3 -white" src="${dbUser.image ? dbUser.image :  profile}">
+    <h1 class="mt-5">${dbUser.name}</h1>
+    <p class="mt-5">${dbUser.number}</p>
+    <p class="mt-5">${dbUser.location}</p>
+    <p onclick="viewUserProfile()" class="blue pointer p-10 fs-18 bold-600">Message</p>
+   </div>
+  </div>
+ </div>`;  
+ });
+});
 
-         fetch(`http://localhost:3000/users`,{
-            method: "PATCH",
-            headers: {'content-type':'application/json'},
-         }).then(res => res.json()).then(result => {
-            console.log(result);
-            
-         })
-        }
-    </script>
+// Profile box on Click
+function viewUserProfile(){
+    location.assign('chats.html');
+}
+
+
+ </script>
+
+
 
 
 </body>

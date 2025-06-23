@@ -9,11 +9,5 @@ function useState(initialValue) {
 } 
 
 //----------------------------------->
-// Server url
-const userUrl = 'https://slys-messenger-server.vercel.app/users';
-const conversationUrl = 'https://slys-messenger-server.vercel.app/conversation';
-const lsId = localStorage.getItem('slys-messenger-datas');
-
-
 
 

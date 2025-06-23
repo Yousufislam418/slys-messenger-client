@@ -31,8 +31,8 @@ const users = userData(0);
  displayUser.innerHTML += `
   <div class="h-50 bg-blue-8 align-center">
    <div class="flex">
-   <img class="w-40 h-40 ml-8 shadow-2 round" src="${selfUser?.image}"> 
-   <h1 class="px-10 align-center fs-25 aqua">${selfUser.name}</h1>
+   <img class="w-40 h-40 text-align-center ml-8 shadow-2 round" src="${selfUser?.image}"> 
+   <h1 class="px-10 align-center fs-22 aqua">${selfUser.name}</h1>
   </div>
  </div>`;
 
@@ -43,7 +43,7 @@ userLists.forEach((user,index)=> {
  displayUser.innerHTML += `
  <div class="p-10 bg-base-8">
   <h1 id="userIds" class="base btn-md flex align-items-center" onclick="userOnClick('${user._id}')">
-   <img class="base mr-10 w-40 h-40 border-1 -aqua-3 object-fit-cover round" src="${user?.image }">${user.number}</h1>
+   <img class="base mr-10 w-40 h-40 border-1 -aqua-3 object-fit-cover round" src="${user.image ? user.image : profile}">${user.number}</h1>
  </div>`;
 });
 }// userDataDisplay fn end
@@ -54,9 +54,8 @@ userLists.forEach((user,index)=> {
 // userOnClick
 function userOnClick(id){ 
 
-   console.log(id);
+ chatbox.innerHTML = ''; 
    
-
  classListAdd('user-box','sm-none');
  classListRemove('chat-board-id','sm-none');
 
@@ -92,15 +91,20 @@ function displayChatData(){
  const filterConversation = conversationDatas.filter((conversation)=> 
     (conversation.sentUser === selfUser && conversation.receiveUser === friendUser) ||
     (conversation.sentUser === friendUser && conversation.receiveUser === selfUser));
-
-   chatbox.innerHTML = ''; 
+ 
+    chatbox.innerHTML = ''; 
 
    filterConversation.forEach((chats)=> {  
   let status = '';
   if(chats.sentUser == selfUser){ status = 'sent'; }else{ status = 'receive'; }  
+
+   const {date, time} =  dateTime(chats.date);
+
  chatbox.innerHTML += `
   <div class="clear-both ${status} p-8 my-3">
-   <span class="black-8 fs-18 bold-600 flex-wrap-wrap">${chats.text}<span>
+   <p class="black-5 fs-18 flex-wrap-wrap">${chats.text}<p>
+   <p class="fs-10 green-5 m-5 radius-10">${date} ${time}</p>
+   
   </div>
    `;
  });
@@ -193,4 +197,9 @@ function regitrationFormManage() {
    }
 }
 //  regitrationFormManage();
+
+
+
+
+
 

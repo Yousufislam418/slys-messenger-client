@@ -1,11 +1,11 @@
 .sent {
   float: right;
-  background-color: #d7dfde;
+  background-color: #e0ecec;
   border-radius: 8px;
 }
 .receive {
   float: left;
-  background: #ece9eb;
+  background: #e5e9eb;
   border-radius: 8px;
 }
 
