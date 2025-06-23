@@ -10,8 +10,25 @@
 <body>
 
     <h1 class="fs-30 red text-center">This is Home</h1>
-    <h1 class="fs-30 red text-center">This is Home</h1>
-    <h1 class="fs-30 red text-center">This is Home</h1>
-    
+  
+    <button class="mx-auto btn-lg danger" onclick="updateData()">Update</button>
+
+ <script src="../hooks/hooks.js"></script>
+    <script>
+        function updateData(){ 
+ return;
+     const id = '6852fd68812f079de1467489';
+
+         fetch(`http://localhost:3000/users`,{
+            method: "PATCH",
+            headers: {'content-type':'application/json'},
+         }).then(res => res.json()).then(result => {
+            console.log(result);
+            
+         })
+        }
+    </script>
+
+
 </body>
 </html>

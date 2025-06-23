@@ -31,8 +31,8 @@ const users = userData(0);
  displayUser.innerHTML += `
   <div class="h-50 bg-blue-8 align-center">
    <div class="flex">
-   <img class="w-40 h-40 ml-8 shadow-2 round" src="${selfUser.img}"> 
-   <h1 class="px-10 align-center aqua">${selfUser.name}</h1>
+   <img class="w-40 h-40 ml-8 shadow-2 round" src="${selfUser?.image}"> 
+   <h1 class="px-10 align-center fs-25 aqua">${selfUser.name}</h1>
   </div>
  </div>`;
 
@@ -54,6 +54,9 @@ userLists.forEach((user,index)=> {
 // userOnClick
 function userOnClick(id){ 
 
+   console.log(id);
+   
+
  classListAdd('user-box','sm-none');
  classListRemove('chat-board-id','sm-none');
 
@@ -68,7 +71,7 @@ function userOnClick(id){
  <div class="flex align-items-center h-40">
   <img onclick="classListAdd('chat-board-id','sm-none'), classListRemove('user-box','sm-none')" 
     class="w-24 md-none mx-5 pointer" src="../assets/icons/arrow-back.png">
-  <img class="w-30 h-30 round border-1 -aqua-3 mx-8" src="${friendUser?.img}">
+  <img class="w-30 h-30 round border-1 -aqua-3 mx-8" src="${friendUser?.image}">
   <h3 id="chat-title" class="white">${friendUser.number}</h3>
  </div>`;
 
